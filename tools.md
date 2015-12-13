@@ -10,6 +10,7 @@
 
 # Cloud-based platforms
 * Rackspace, Internap, Amazon EC2, Google Cloud Platform, OpenStack, SoftLayer, and Microsoft Azure
+* [Heroku](https://www.heroku.com/platform) - Platform-as-a-Service for deplying apps in *dynos*
 
 # Continuous Integration
 
@@ -24,6 +25,7 @@
 # Containers and virtualization
 * [Docker](https://www.docker.com/)
 * [Vagrant](https://www.vagrantup.com/) - Create and configure lightweight, reproducible, and portable development environments. Higher-level wrapper around virtualization software such as VirtualBox, VMware, KVM and Linux Containers (LXC), and around configuration management software such as Ansible, Chef, Salt, and Puppet
+
 
 # Code repository
 * [BitBucket](https://bitbucket.org) - (by Atlassian)
@@ -59,6 +61,9 @@
 * [libevent](http://libevent.org/) - library for asynchronous event notification (epoll, poll, select, kqueue)
 * [libuv](http://libuv.org/) - library for asynchronous event notification (epoll, kqueue, IOCP), used by node.js
 
+## Network
+* [twisted](https://twistedmatrix.com/trac/) - Python event-driven networking engine
+
 # Network
 
 * snort - IDS and IPS (intrusion-detection and intrusion-prevention system)
@@ -89,3 +94,20 @@
 
 * [Mapbox](https://www.mapbox.com) - Many online & desktop tools and APIs for working/creating maps and their geospatial analysis.
 * [Maptiler](http://www.maptiler.com/) - Prepare custom map overlays and tiles
+
+
+# Technologies & Protocols
+
+## Authorization
+* [Oauth](http://oauth.net/)
+
+## LML (Little Markup languages)
+### For data representation and serialization
+
+* JSON
+* YAML
+
+### For easy rich-text entering
+
+* Markdown
+* RestructuredText - used by Python's documentation
