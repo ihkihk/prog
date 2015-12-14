@@ -13,8 +13,8 @@
 * [Heroku](https://www.heroku.com/platform) - Platform-as-a-Service for deplying apps in *dynos*
 
 # Continuous Integration
-
 * [jenkins](https://jenkins-ci.org/)
+* [Travis-CI](https://travis-ci.com/)
 
 # System Configuration Management / Infrastructure Automation
 * [Ansible](http://www.ansible.com/)
@@ -30,6 +30,10 @@
 # Code repository
 * [BitBucket](https://bitbucket.org) - (by Atlassian)
 * [GitHub](https://github.com)
+
+# Building automation
+* [Gradle](http://gradle.org/) - Enterprise Build Automation
+* [Grunt](http://gruntjs.com/) - JS Task Runner
 
 # Databases
 * [Apache Cassandra](http://cassandra.apache.org/) - (by Facebook) the highest performing distributed NoSQL DBMS, uses Amazon Dynamo principles
