@@ -78,12 +78,15 @@
 * [Rodeo](http://rodeo.yhat.com/) - (built with Electron) Python IDE for data science
 * [Wagon](https://www.wagonhq.com/) - (built with Electron) A modern SQL editor
 
-# Authoring
-
+# Authoring, Recording
+* [Asciinema](https://asciinema.org/) - records as a text-searchable video terminal sessions!
 * [GitBook](https://www.gitbook.com)--- (logged with Github account) Supports TeX
 * [Ottobib](www.ottobib.com) - searches for book by ISBN and prepares its bibtex entry
 * [ShareLatex](https://www.sharelatex.com) --- For Latex documents
 * [TableGenerator]({www.tablesgenerator.com}) --- Table generator for many formats (incl. Latex)
+
+# Fun tools
+* [Lolcat](https://github.com/busyloop/lolcat) - Ruby script to rainbow-colorize terminal output
 
 # Hardware
 
