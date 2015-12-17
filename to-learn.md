@@ -2,9 +2,12 @@
 * coreutils, findutils
 * bash, bash programming
 * powershell programming
-* make, scons, ant, gradle, grunt
+* make, scons, ant, gradle, grunt, maven
 * curl, wget, nc
 * iptables, snort, ssh
+* mongodb, neo4j
+* YAML, JSON
+* Markdown, RestructuredText
 
 # Frameworks
 * Electron
@@ -17,6 +20,7 @@
 * API design
 * Blockchain / Bitcoin / Cryptocurrency
 * Computer vision with CV
+* Data analysis, geoanalysis
 * Kernels - Linux/Win
 * Relational DB
 * Graph processing
@@ -29,6 +33,7 @@
 * RESTful
 * Virtualization
 * Visualization
+* Website/e-commerce creation
 * Websockets [RFC 6455](http://tools.ietf.org/html/rfc6455)
 
 
@@ -58,6 +63,3 @@
 * libevent/libuv
 * Twisted
 * SSL
-
-
-

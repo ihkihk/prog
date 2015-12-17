@@ -34,9 +34,11 @@
 # Building automation
 * [Gradle](http://gradle.org/) - Enterprise Build Automation
 * [Grunt](http://gruntjs.com/) - JS Task Runner
+* [Maven](https://maven.apache.org/) - (by Apache)
 
 # Databases
 * [Apache Cassandra](http://cassandra.apache.org/) - (by Facebook) the highest performing distributed NoSQL DBMS, uses Amazon Dynamo principles
+* [Neo4j](http://neo4j.com/) - a graph database
 * [Redis](http://redis.io/) - the most widely used in-memory key:value data structure store
 * [Riak](http://basho.com/products/#riak) - highly reliable NoSQL DBMS, written in Erlang, uses Amazon Dynamo principles
 
