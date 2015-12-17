@@ -10,17 +10,19 @@
 
 # Cloud-based platforms
 * Rackspace, Internap, Amazon EC2, Google Cloud Platform, OpenStack, SoftLayer, and Microsoft Azure
+* [Dokku](https://github.com/dokku/dokku) - A very minimalist PaaS powered by Docker
 * [Heroku](https://www.heroku.com/platform) - Platform-as-a-Service for deplying apps in *dynos*
 
-# Continuous Integration
+# Continuous Integration & SW Build/Project management
 * [jenkins](https://jenkins-ci.org/)
+* [Jira]()https://www.atlassian.com/software/jira) - (by Atlassian)a complete Agile SW ProjM tool with issue tracker
 * [Travis-CI](https://travis-ci.com/)
 
 # System Configuration Management / Infrastructure Automation
 * [Ansible](http://www.ansible.com/)
 * [Chef](https://www.chef.io/chef/) - (written in Ruby and Erlang)
 * [Puppet](https://puppetlabs.com/)
-* [Salt](http://saltstack.com/)
+* [SaltStack](http://saltstack.com/)
 
 # Containers and virtualization
 * [Docker](https://www.docker.com/)
@@ -49,6 +51,7 @@
 * [Express.js](http://expressjs.com/en/index.html) - server-side/backend web application framework based on node.js
 * [Node.js](https://nodejs.org/en/) - Javascript runtime with even-driven asynchronous (non-blocking) I/O based on libuv. Allows for highly-scalable event-driven programming (with callbacks), without the need for threading.
 * [React](https://facebook.github.io/react/index.html) - Facebook's Javascript library for GUI (aka the V in MVC)
+* [Sinatra](http://www.sinatrarb.com/) - Very simple Ruby framework for web app dev
 
 # Software bundles / Solution stacks
 
