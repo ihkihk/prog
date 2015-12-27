@@ -63,6 +63,9 @@
 
 # Libraries
 
+## Visualization
+[d3.js](http://d3js.org/)
+
 ## Maps, GIS
 * [Turf.js](https://www.mapbox.com/analysis/) - open-source library for geospatial analysis on web maps
 
