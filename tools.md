@@ -65,6 +65,7 @@
 
 ## Visualization
 [d3.js](http://d3js.org/)
+[plot.ly](https://plot.ly) - an online chart and dashboard for D3 diagramming and open-source library (plotly) for Python, R
 
 ## Maps, GIS
 * [Turf.js](https://www.mapbox.com/analysis/) - open-source library for geospatial analysis on web maps

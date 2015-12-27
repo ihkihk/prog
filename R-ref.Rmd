@@ -1,0 +1,193 @@
+# R reference
+# IKA (c)2015
+
+# General
+o. Array indexing starts with 1
+o. Case-sensitive everywhere
+
+# Saving data
+save.image() - save the whole session to .RData
+save(variablename, file="filename.rda")
+load("filename.rda")
+write.table(myData, "testfile.txt", sep="\t")
+
+
+
+# Creating data
+v <- c(1,2,3,4) - Vector (All elements are of the same type). Makes coercion on diff types
+is.numeric(v)
+d <- data.frame(v1, v2, v3)
+l <- list(1,4,"hello", TRUE) - List (different type elements)
+
+# Deleting data
+rm(x)
+
+# Finding out the type of a variable and exploring data structures
+is.factor(x)
+is.character(x)
+is.numeric(x) - returns FALSE for 3L and TRUE for 3 or 3.0
+is.integer(x) - returns TRUE for 3L and FALSE for 3 or 3.0
+class(x) - gives the type of a value
+str(x) - prints out the structure of a variable
+summary(x) - quantiles
+head(x, n=10)
+head(x,10)
+tail(x,10)
+colnames(mydata)
+rownames(mydata)
+names(mydata)
+dim(mydata)
+mode(x) - returns data type (not statistical mode!)
+
+# Environment
+getwd()
+setwd()
+ls() - prints list of objects in the current session
+rm(list=ls()) - to clean everything in the workspace
+list.files() === dir()
+file.create(f)
+file.exists(filename)
+file.info(filename)
+file.rename()
+file.copy(f1,f2)
+file.remove(f)
+dir.create(f,recursive=TRUE)
+dir.exists(...)
+unlink(d, recursive=TRUE) - to delete a directory
+
+
+# Selecting data
+mydata$col
+mydata[,c(2,4)] - select all rows of columns 2 and 4
+mydata[,-1] - select all columns BUT the 1st one
+mydata[mydata$col<20,]
+mtcars[mtcars$mpg>20,c("mpg","hp")]  ==  subset(mtcars, mpg>20, c("mpg", "hp"))
+subset(mtcars, mpg==max(mpg), mpg)
+subset(mtcars, , c("mpg", "hp")) - extract some columns
+subset(mtcars, select=c("mpg", "hp")) - the same as above
+table(socioeconomicstatus.f, schooltype.f) - to tally up counts by factor
+--see dplyr package
+--see sldf package
+sqldf("select * from mtcars where mpg > 20 order by mpg desc")
+
+
+
+
+# Creating a factor variable
+
+ses <- c(0,1,0,0,1,0,0,1,2,1,2,1)
+ses.f <- factor(ses, levels = c('low', 'medium', 'high'), ordered=T)
+is.factor(ses.f)
+levels(ses.f)
+
+# Creating an ordered factor variable
+ses <- c('low','high','middle','low','low','middle')
+ses.order <- ordered(ses, levels = c('low', 'middle', 'high'))
+ses.order
+is.factor(ses.order)
+
+# Adding a new level to a factor
+ses.f <- factor(ses.f, levels = c(levels(ses.f), "very.high"))
+ses.f[21] <- "very.high"
+ses.f
+
+# Removing a level from a factor
+ses.f.new <- ses.f[ses.f != "very.high"]
+ses.f.new <- factor(ses.f.new)
+ses.f.new
+
+
+
+# Reading in data
+data() - to show data packages coming with R
+data(mtcars) - load the respective data package
+mydata <- read.csv("filename.txt", stringsAsFactors=FALSE, header=FALSE, sep=".")
+mydata <- read.csv("http://bit.ly/10ER84j")
+mydata <- read.table("filename.txt", sep="\t", header=TRUE) # in case of sep not ,
+# to import from the clipboard on windows
+x <- read.table(file = "clipboard", sep="\t", header=TRUE)
+# to import from the clipboard on Mac
+x <- read.table(pipe("pbpaste"), sep="\t")
+
+# Basic data manipulation
+sort(x)
+nchar(x) - prints number of characters
+y <- na.omit(x) - return only the rows that have no NA fields in them
+names(x) <- c("col1", "col2")  - set the names of the columns
+y <- merge(data.frame1, data.frame2)
+
+# Statistical info
+cor(x) - correlation
+mfv(x) - (package "modeest") - statistical mode, aka most frequent value
+mean(x, na.rm=TRUE) - get the "mean" by ignoring the NA values
+median(x)
+choose(15,4) - number of combinations of 4 out of 15
+combn(c("Bob", "Joanne", "Sally", "Tim", "Neal"),2) - selecting 2 out of the 5 people
+
+# Graphics
+-- from standard R dataviz
+plot(mtcars$disp, mtcars$mpg, xlab="Disp", ylab="mpg", main="Title", las=1)
+   Note: las means label style and 1 is for vertical labels
+?par - get help on plot params
+barplot(BOD$demand, main="Graph of demand", names.arg = BOD$Time, col=rainbow(6))
+hist(mydata$columnName, breaks = n, col="blue")
+boxplot(diamonds$x, diamonds$y, diamonds$z) - side-by-side boxplots
+-- from ggplot2
+qplot(disp, mpg, ylim=c(0,35), data=mtcars) - quickplot from package ggplot2
+qplot(cty, hwy, data=mpg, geom="jitter") - helps see if points are overlapping
+qplot(factor(mtcars$cyl)) - makes a barplot
+qplot(columnName, data=mydata, binwidth=n) - makes a histogram
+ggplot() - the "real" function in ggplot2
+ggplot(mtcars, aes(x=disp, y=mpg)) + geom_line() + geom_point()  [aes means aesthetics]
+ggplot(mydata, aes(x=columnName)) + geom_histogram(binwidth=n) - histogram
+qplot(factor(cyl), data=mtcars, geom="bar", fill=factor(cyl))
+--colors
+rainbow(n)
+heat.colors(n)
+terrain.colors(n)
+topo.colors(n)
+cm.colors(n)
+ggplot(mtcars, aes(x=factor(cyl))) + geom_bar(fill=rainbow(3))
+testcolors <- ifelse(testscores >= 80, "blue", "red")
+--saving to a file
+jpeg("myplot.jpg", width=350, height=420)
+barplot(BOD$demand, col=rainbow(6))
+dev.off()
+--saving in ggplot2
+ggsave(filename)
+
+
+# Packages
+install.packages("thepackagename")
+installed.packages()
+library("thepackagename")
+update.packages()
+remove.packages("thepackagename")
+
+# Help
+?functionName
+help(functionName)
+example(functionName)
+args(functionName)
+help.search("your search term")  ==  ??("my search term")
+??one_word
+
+
+
+# Some packages
+corrplot - graphical correlation matrices
+dplyr - A grammar for data manipulation (selecting columns, filtering, arranging, etc.)
+modeest - contains the mfv() "most frequent value (mode)" function
+qqplot2
+[quantmod](http://www.quantmode.com) - financial analysis by Jeffrey Ryan. can plot share stickers
+plotly - interactive plots based on d3.js
+plyr - "split-apply-combine"  model of dealing with data (like in pandas)!
+psych - can give more data info than "summary", via the "describe" command
+sqldf - allows running SQL queries against a data frame (like pandasql)
+swirl - package for interactive statistics learning. Execute swirl()
+[HTML Widgets for R](http://www.htmlwidgets.org/) - contain many JS-based libraries
+  for graphics like Leaflet (for interactive maps), Plotly (for D3.js-based interactive
+  graphs), dygraphs (for time-series charting), networkD3 (for graph data
+  visualization with D3.js), DataTables (for interactive tabular data display), threejs (for 3d
+  scatterplots), rglwidget (Render scenes created with rgl), DiagrammeR (for graphviz
+  and mermaid based diagrams and flowcharts), MetricsGraphics (easy creation of D3 scatterplots, line charts, and histograms)
