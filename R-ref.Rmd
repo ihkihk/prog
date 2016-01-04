@@ -104,6 +104,7 @@ data(mtcars) - load the respective data package
 mydata <- read.csv("filename.txt", stringsAsFactors=FALSE, header=FALSE, sep=".")
 mydata <- read.csv("http://bit.ly/10ER84j")
 mydata <- read.table("filename.txt", sep="\t", header=TRUE) # in case of sep not ,
+mydata <- read.delim(filename) - default separator is TAB
 # to import from the clipboard on windows
 x <- read.table(file = "clipboard", sep="\t", header=TRUE)
 # to import from the clipboard on Mac
@@ -141,6 +142,10 @@ ggplot() - the "real" function in ggplot2
 ggplot(mtcars, aes(x=disp, y=mpg)) + geom_line() + geom_point()  [aes means aesthetics]
 ggplot(mydata, aes(x=columnName)) + geom_histogram(binwidth=n) - histogram
 qplot(factor(cyl), data=mtcars, geom="bar", fill=factor(cyl))
+ggplot(data = pf, aes(x = dob_day)) +
+  geom_histogram() +
+   scale_x_discrete(breaks = 1:31) +
+   facet_wrap(~dob_month)
 --colors
 rainbow(n)
 heat.colors(n)
