@@ -12,12 +12,12 @@ load("filename.rda")
 write.table(myData, "testfile.txt", sep="\t")
 
 
-
 # Creating data
 v <- c(1,2,3,4) - Vector (All elements are of the same type). Makes coercion on diff types
-is.numeric(v)
 d <- data.frame(v1, v2, v3)
 l <- list(1,4,"hello", TRUE) - List (different type elements)
+seq(1.5, 5.5, by=0.5)
+i <- as.integer(3)
 
 # Deleting data
 rm(x)
@@ -27,8 +27,13 @@ is.factor(x)
 is.character(x)
 is.numeric(x) - returns FALSE for 3L and TRUE for 3 or 3.0
 is.integer(x) - returns TRUE for 3L and FALSE for 3 or 3.0
+is.logical(x)
 class(x) - gives the type of a value
 str(x) - prints out the structure of a variable
+nrows(x) - number of rows
+ncols(x) - number of cols
+nlevels(f) - number of levels
+nchar(x) - prints number of characters
 summary(x) - quantiles
 head(x, n=10)
 head(x,10)
@@ -37,6 +42,7 @@ colnames(mydata)
 rownames(mydata)
 names(mydata)
 dim(mydata)
+dimnames(mydata)
 mode(x) - returns data type (not statistical mode!)
 
 # Environment
@@ -112,16 +118,18 @@ x <- read.table(pipe("pbpaste"), sep="\t")
 
 # Basic data manipulation
 sort(x)
-nchar(x) - prints number of characters
 y <- na.omit(x) - return only the rows that have no NA fields in them
 names(x) <- c("col1", "col2")  - set the names of the columns
 y <- merge(data.frame1, data.frame2)
+tapply(painters$Composition, painters$School, mean) - applies "mean" on painters' Composition score ordered by school
+y <- cbind/rbind(data.frame) - merge by columns/rows
 
 # Statistical info
 cor(x) - correlation
 mfv(x) - (package "modeest") - statistical mode, aka most frequent value
 mean(x, na.rm=TRUE) - get the "mean" by ignoring the NA values
 median(x)
+range(x)
 choose(15,4) - number of combinations of 4 out of 15
 combn(c("Bob", "Joanne", "Sally", "Tim", "Neal"),2) - selecting 2 out of the 5 people
 
@@ -182,6 +190,7 @@ help.search("your search term")  ==  ??("my search term")
 # Some packages
 corrplot - graphical correlation matrices
 dplyr - A grammar for data manipulation (selecting columns, filtering, arranging, etc.)
+gdata - Import Excel data with the function read.xsl
 modeest - contains the mfv() "most frequent value (mode)" function
 qqplot2
 [quantmod](http://www.quantmode.com) - financial analysis by Jeffrey Ryan. can plot share stickers
