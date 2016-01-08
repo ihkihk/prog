@@ -63,6 +63,10 @@
 
 # Libraries
 
+## Maths
+[Geocode](http://www.gecode.org/) - Generic Constraint Development Environment, the best lib for constraint  programming
+
+
 ## Visualization
 [d3.js](http://d3js.org/)
 [plot.ly](https://plot.ly) - an online chart and dashboard for D3 diagramming and open-source library (plotly) for Python, R
