@@ -8,6 +8,3 @@
 # MongoDB
 [Introduction to MongoDB using the MEAN Stack on Edx](https://www.edx.org/course/introduction-mongodb-using-mean-stack-mongodbx-m101x#!)
 [MongoDB Thinking in Documents Webinar](https://www.mongodb.com/presentations/webinar-back-to-basics-thinking-in-documents?p=55f080b16d6f6e7e15030000&utm_campaign=T6_V2_DEV_AM_E5_Schema%20Design%20-%20A&utm_medium=email&utm_source=Eloqua)
-
-# R
-[R-Tutor](http://www.r-tutor.com/) - contains a basic syntax and statistics training with R

@@ -21,6 +21,7 @@ i <- as.integer(3)
 
 # Deleting data
 rm(x)
+rm(list=ls()) - remove all data
 
 # Finding out the type of a variable and exploring data structures
 is.factor(x)
@@ -38,6 +39,7 @@ summary(x) - quantiles
 head(x, n=10)
 head(x,10)
 tail(x,10)
+length(x) - length of a list
 colnames(mydata)
 rownames(mydata)
 names(mydata)
@@ -149,11 +151,16 @@ qplot(columnName, data=mydata, binwidth=n) - makes a histogram
 ggplot() - the "real" function in ggplot2
 ggplot(mtcars, aes(x=disp, y=mpg)) + geom_line() + geom_point()  [aes means aesthetics]
 ggplot(mydata, aes(x=columnName)) + geom_histogram(binwidth=n) - histogram
+ggplot(aes(x=age,y=friends),data=fb)+geom_jitter(alpha=1/20, position =position_jitter(height = 0))+xlim(13,90)+coord_trans(y="sqrt") - scatterplot with coordinate transformation
+NOTE: coordinate/scale transformations are performed after/before statistical transf
 qplot(factor(cyl), data=mtcars, geom="bar", fill=factor(cyl))
 ggplot(data = pf, aes(x = dob_day)) +
   geom_histogram() +
    scale_x_discrete(breaks = 1:31) +
    facet_wrap(~dob_month)
+qplot(x=friend_count, data=subset(pf, !is.na(gender)), binwidth=25) +
+  scale_x_continuous(limits = c(0,1000), breaks=seq(0,1000,50)) + facet_wrap(~gender)
+qplot(x=friend_count, binwidth=25, geom='freqpoly', color=gender)
 --colors
 rainbow(n)
 heat.colors(n)
@@ -191,17 +198,24 @@ help.search("your search term")  ==  ??("my search term")
 corrplot - graphical correlation matrices
 dplyr - A grammar for data manipulation (selecting columns, filtering, arranging, etc.)
 gdata - Import Excel data with the function read.xsl
+[ggvis](http://ggvis.rstudio.com/) - alternative to ggplot2, based on [Vega](http://vega.github.io/) and using RStudio Shiny for interactive web graphics
+gridExtra - for arranging multiple plots
 modeest - contains the mfv() "most frequent value (mode)" function
 qqplot2
-[quantmod](http://www.quantmode.com) - financial analysis by Jeffrey Ryan. can plot share stickers
+[quantmod](http://www.quantmode.com) - financial analysis by Jeffrey Ryan. can plot share   stickers
 plotly - interactive plots based on d3.js
 plyr - "split-apply-combine"  model of dealing with data (like in pandas)!
 psych - can give more data info than "summary", via the "describe" command
+reshape2 - famous package for manipulating data containers
 sqldf - allows running SQL queries against a data frame (like pandasql)
 swirl - package for interactive statistics learning. Execute swirl()
+tidyr -a package that reshapes the layout of your data
 [HTML Widgets for R](http://www.htmlwidgets.org/) - contain many JS-based libraries
   for graphics like Leaflet (for interactive maps), Plotly (for D3.js-based interactive
   graphs), dygraphs (for time-series charting), networkD3 (for graph data
   visualization with D3.js), DataTables (for interactive tabular data display), threejs (for 3d
   scatterplots), rglwidget (Render scenes created with rgl), DiagrammeR (for graphviz
   and mermaid based diagrams and flowcharts), MetricsGraphics (easy creation of D3 scatterplots, line charts, and histograms)
+
+# Frameworks
+* [RStudio Shiny](http://shiny.rstudio.com/) - framework for R for web applications
