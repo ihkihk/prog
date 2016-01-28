@@ -27,3 +27,11 @@
 ## Programming problems/quizzes
 * [Project Euler](https://projecteuler.net) - Contains 531 riddles of increasing difficulty
 
+
+# Hackathons, coding
+* [Codeforces](http://codeforces.com/)
+* [Topcoder](https://www.topcoder.com/) - has also a lot of tutorials
+* [Facebook Hacker Cup](https://www.facebook.com/hackercup)
+* [Google Code Jam](https://code.google.com/codejam/)
+
+
