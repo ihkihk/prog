@@ -175,6 +175,8 @@ barplot(BOD$demand, col=rainbow(6))
 dev.off()
 --saving in ggplot2
 ggsave(filename)
+--arranging multiple plots with gridExtra
+grid.arrange(p1,p2,p3,ncol=1)
 
 
 # Packages
@@ -198,6 +200,7 @@ help.search("your search term")  ==  ??("my search term")
 corrplot - graphical correlation matrices
 dplyr - A grammar for data manipulation (selecting columns, filtering, arranging, etc.)
 gdata - Import Excel data with the function read.xsl
+GGally - for creating scatterplot matrices
 [ggvis](http://ggvis.rstudio.com/) - alternative to ggplot2, based on [Vega](http://vega.github.io/) and using RStudio Shiny for interactive web graphics
 gridExtra - for arranging multiple plots
 modeest - contains the mfv() "most frequent value (mode)" function

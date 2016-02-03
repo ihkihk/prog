@@ -16,6 +16,11 @@
 
 # R
 [R-Tutor](http://www.r-tutor.com/) - contains a basic syntax and statistics training with R
+[Google R Style Guide](https://google.github.io/styleguide/Rguide.xml)
+[Quick-R](http://www.statmethods.net/) - Accessing the power of R. Basis for the book "R in Action"
+[R-Cookbook](http://www.cookbook-r.com/) - this is not the book!
+[R-Bloggers](http://www.r-bloggers.com/)
+[Data Wrangling with R (dplyr, tidyr)](https://dl.dropboxusercontent.com/u/5896466/wrangling-webinar.pdf)
 
 # Computer Science
 ## Lambda calculus, Functional programming
@@ -33,5 +38,3 @@
 * [Topcoder](https://www.topcoder.com/) - has also a lot of tutorials
 * [Facebook Hacker Cup](https://www.facebook.com/hackercup)
 * [Google Code Jam](https://code.google.com/codejam/)
-
-
