@@ -21,6 +21,7 @@
 [R-Cookbook](http://www.cookbook-r.com/) - this is not the book!
 [R-Bloggers](http://www.r-bloggers.com/)
 [Data Wrangling with R (dplyr, tidyr)](https://dl.dropboxusercontent.com/u/5896466/wrangling-webinar.pdf)
+[Inside-R](http://www.inside-r.org/) - A Community Site for R – Sponsored by Revolution Analytics
 
 # Computer Science
 ## Lambda calculus, Functional programming
