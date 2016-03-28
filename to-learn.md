@@ -35,6 +35,7 @@
 * Visualization
 * Website/e-commerce creation
 * Websockets [RFC 6455](http://tools.ietf.org/html/rfc6455)
+* Web microformats
 
 
 # Languages

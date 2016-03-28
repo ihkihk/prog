@@ -1,12 +1,21 @@
+# Project management and collaboration
+* yodiz.com - SCRUM tool
+* scrumdo.com
+* ganttproject
+* 2-plan desktop
+
 # GUI mockup, prototyping
 
 ## Desktop tools
+* justinmind.com/free !!!  - windows/mac required
+* http://wireframesketcher.com - eclipse/standalone for lin/win/mac !! (99$)
 
 ## Online tools
 
-* [fluidui](https://fluidui.com)
-* [ninjamock](https://ninjamock.com)
+* [fluidui](https://fluidui.com) - I have an account there
+* [ninjamock](https://ninjamock.com) - I have an account there
 * [Pixate](http://www.pixate.com/) - (built on Electron)
+* [UXpin](www.uxpin.com) - professional platform for wireframe, mockup, prototype, usability testing
 
 # Cloud-based platforms
 * Rackspace, Internap, Amazon EC2, Google Cloud Platform, OpenStack, SoftLayer, and Microsoft Azure
@@ -14,9 +23,9 @@
 * [Heroku](https://www.heroku.com/platform) - Platform-as-a-Service for deplying apps in *dynos*
 
 # Continuous Integration & SW Build/Project management
-* [jenkins](https://jenkins-ci.org/)
-* [Jira]()https://www.atlassian.com/software/jira) - (by Atlassian)a complete Agile SW ProjM tool with issue tracker
-* [Travis-CI](https://travis-ci.com/)
+* [jenkins](https://jenkins-ci.org/) - former 'hudson'
+* [Jira](https://www.atlassian.com/software/jira) - (by Atlassian)a complete Agile SW ProjM tool with issue tracker
+* [Travis-CI (with my profile)](https://travis-ci.com/profile/ihkihk) - I'm logged through my github account
 
 # System Configuration Management / Infrastructure Automation
 * [Ansible](http://www.ansible.com/)
@@ -37,6 +46,11 @@
 * [Gradle](http://gradle.org/) - Enterprise Build Automation
 * [Grunt](http://gruntjs.com/) - JS Task Runner
 * [Maven](https://maven.apache.org/) - (by Apache)
+* [Google Bazel](http://bazel.io) - the Google's multilanguage SW build tool !!!
+* ant
+* scons
+* cmake
+* make
 
 # Databases
 * [Apache Cassandra](http://cassandra.apache.org/) - (by Facebook) the highest performing distributed NoSQL DBMS, uses Amazon Dynamo principles
@@ -68,8 +82,9 @@
 
 
 ## Visualization
-[d3.js](http://d3js.org/)
-[plot.ly](https://plot.ly) - an online chart and dashboard for D3 diagramming and open-source library (plotly) for Python, R
+* [d3.js](http://d3js.org/)
+* [plot.ly](https://plot.ly) - an online chart and dashboard for D3 diagramming and open-source library (plotly) for Python, R
+* [Vega](http://vega.github.io/) - a JSON based visualization grammar; generates interactive views via HTML5 Canvas or SVG
 
 ## Maps, GIS
 * [Turf.js](https://www.mapbox.com/analysis/) - open-source library for geospatial analysis on web maps
@@ -81,9 +96,17 @@
 ## Network
 * [twisted](https://twistedmatrix.com/trac/) - Python event-driven networking engine
 
+## Testing
+* unitcpp
+* [Catch](https://github.com/philsquared/Catch) - A modern, C++-native, header-only, framework for unit-tests, TDD and BDD
+* [google Test & google Mock](https://github.com/google/googletest)
+* xUnit - much improved JUnit by the creators of NUnit
+* QTestLib - for Qt projects, supports also GUI testing
+
 # Network
 
-* snort - IDS and IPS (intrusion-detection and intrusion-prevention system)
+* [snort](https://www.snort.org) - IDS and IPS (intrusion-detection and intrusion-prevention system)
+* [Nagios](http://www.nagios.com) - Network monitoring
 
 # Programmer's toolbox
 * [Atom](http://atom.io) - (built with Electron by GitHub) - code editor!
@@ -95,12 +118,16 @@
 * [Rodeo](http://rodeo.yhat.com/) - (built with Electron) Python IDE for data science
 * [Wagon](https://www.wagonhq.com/) - (built with Electron) A modern SQL editor
 
-# Authoring, Recording
+# Authoring, Recording, MindMaps
 * [Asciinema](https://asciinema.org/) - records as a text-searchable video terminal sessions!
 * [GitBook](https://www.gitbook.com)--- (logged with Github account) Supports TeX
 * [Ottobib](www.ottobib.com) - searches for book by ISBN and prepares its bibtex entry
 * [ShareLatex](https://www.sharelatex.com) --- For Latex documents
 * [TableGenerator]({www.tablesgenerator.com}) --- Table generator for many formats (incl. Latex)
+* [Detexify](http://detexify.kirelabs.org/classify.html) - Latex Symbol Recognizer
+* [Markdown Live Preview](http://markdownlivepreview.com/)
+* [MindMup](https://www.mindmup.com) - free online mindmapping with possibility to write to GoogleDrive
+
 
 # Fun tools
 * [Lolcat](https://github.com/busyloop/lolcat) - Ruby script to rainbow-colorize terminal output
@@ -114,12 +141,23 @@
 
 * [Mapbox](https://www.mapbox.com) - Many online & desktop tools and APIs for working/creating maps and their geospatial analysis.
 * [Maptiler](http://www.maptiler.com/) - Prepare custom map overlays and tiles
+* [Maperitive](http://maperitive.net/) - Free tool for drawing maps based on OpenStreetMap and GPS data
+* [Overpass-Turbo](http://overpass-turbo.eu/) - Server for authoring and performing queries agains OpentStreetMap
+
+# Drawing and diagramming
+* [Draw.io](www.draw.io)
+* [LucidChart](www.lucidchart.com)
+* [CreateLy](creately.com)
+* [TinkerCAD](www.tinkercad.com) - 3D modeling
 
 
 # Technologies & Protocols
 
 ## Authorization
 * [Oauth](http://oauth.net/)
+* Kerberos
+* RADIUS, DIAMETER
+
 
 ## LML (Little Markup languages)
 ### For data representation and serialization
