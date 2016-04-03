@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Coffee brewing</title>
+        <link href="http://fonts.googleapis.com/css?Family=Open+Sans" rel="stylesheet" type="text/css">
+        <link href="mystylesheet.css" rel="stylesheet" type="text/css">
+        
+        <style>
+            body {
+                font-family: "Open Sans", sans-serif;
+            }
+            h1, h2 {
+                color: brown;
+            }
+            .blue-para {
+                color: blue;
+            }
+            #main-heading {
+                color: green;
+            }
+            .my-division h2 {
+                color: yellow;
+            }
+            .my-division ul {
+                list-style-type: square;
+            }
+            ul {
+                list-style-image: url("images/tiny-coffee-cup.jpg");
+            }
+            nav ul {
+                list-style-type: none;
+            }
+            nav li {
+                display: inline;
+            }
+            nav a:link, nav a:visited {
+                background: red;
+                color: white;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            nav a:hover {
+                background: blue;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1 style="text-align: right" id="main-heading">My h1 heading</h1>
+        
+        <div class="my-division">
+            <h1>A heading in div</h1>
+            <h2>A heading in div</h2>
+            <ul>
+                <li>item 1</li>
+            </ul>
+        </div>
+        
+        <a href="http://wikipedia.org" target="_blank">Wikipedia</a>
+        <a href="mailto:ivokassamakov@gmail.com?Subject=test">Contact me</a>
+        <a href="my-other-page.html">
+            <img src="images/pic.jpg" alt="Image link" width=500 height=300>
+        </a>
+        
+        <nav>
+            <ul>
+                <li><a href="#lnk1">Link 1</a></li>
+                <li><a href="#lnk2">Link 2</a></li>
+            </ul>
+        </nav>
+        
+        <h2 id="lnk1">My h2 heading</h2>
+        <h2 id="lnk2">My h2 heading</h2>
+        
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+        </ul>
+        
+        <p>Some paragraphs with &nbsp; &nbsp; integrated whitespace</p>
+        <br>
+        <hr>
+        
+        <section>
+            Experiments section
+            
+            
+            <article>
+                <header>
+                    <h3>Article header</h3>
+                </header>
+                <p>Article paragraph</p>
+                
+                <footer>
+                    An article footer
+                </footer>    
+            </article>
+            
+        </section>
+        
+        <aside>Aside text</aside>
+        
+        <form action="myotherwebpage.html" method="get">
+            <fieldset title="Hello">
+                <legend>A form of fields</legend>
+                <label for="radio1">Radio1</label><input type="radio" name="onOff" id="radio1" value="r1" checked>
+                <label for="radio2">Radio2</label><input type="radio" name="onOff" id="radio2" value="r2">
+                <input type="text" autofocus required placeholder="Say something" title="Fill a text" name="txt">
+                <input type="email" pattern="[a-zA-Z]{3,}@[a-zA-Z]{2,}.[a-zA-Z]{2,}" required name="emails">
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
