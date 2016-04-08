@@ -1,5 +1,6 @@
 # Blogs, companies, education and services
 * [DataSchool](http://www.dataschool.io/) - data science for beginners, with many courses
+* [DATA ANALYTICS ACADEMY](http://www.dataanalyticsacademy.com/) - with a 44-week study curriculum
 * [Flowingdata](http://flowingdata.com/) - great blog for data visualization/analysis
 * [Qlik](http://www.qlik.com/) - Analytics, business intelligence, data visualization
 * [Revolution Analytics.com/](http://blog.revolutionanalytics.com/) - Blog about R and big data computing, predictive modeling, data science
