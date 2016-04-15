@@ -3,6 +3,12 @@
 * scrumdo.com
 * ganttproject
 * 2-plan desktop
+* wrike.com
+* snapchat.com
+* basecamp.com  (best for 2015)
+* redbooth (best for 2015)
+* huddle (best for 2015)
+* nutcache (best for 2015) - can be useful for own company
 
 # GUI mockup, prototyping
 

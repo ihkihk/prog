@@ -1,13 +1,29 @@
 # Tools
-* coreutils, findutils
+* GNU coreutils, findutils, cpio, diffutils, sharutils, tar, termutils (tput), mac changer, gpg, screen, sysutils, wget
+* GNU grub, ddrescue, direvent, fdisk, gparted, M4, sed, gawk, combine, bool
+* GNU autoconf, automake, binutils, bison, cflow, complexity, cppi, gcc, gdb, indent, make, patch
+* emacs, emacs-lisp
 * bash, bash programming
 * powershell programming
 * make, scons, ant, gradle, grunt, maven
 * curl, wget, nc
 * iptables, snort, ssh
-* mongodb, neo4j
+* mongodb, neo4j, 
+
+# Text, encoding
 * YAML, JSON
+* XML, RelaxNG, Schema, Schematron, XSL, XPath, XPointer, Xquery
 * Markdown, RestructuredText
+* Unicode standard
+* TeX, LaTeX
+* Vim, Emacs, Atom, IntelliJ, Eclipse
+* MathML
+* regex
+* SVG
+* DocBook
+
+# Libraries
+* GNU plotutils, readline, ncurses, gengetopt, avl, glib, gss, glibc, libgcrypt, nana, libunistring
 
 # Frameworks
 * Electron
