@@ -44,19 +44,9 @@
 * [Vagrant](https://www.vagrantup.com/) - Create and configure lightweight, reproducible, and portable development environments. Higher-level wrapper around virtualization software such as VirtualBox, VMware, KVM and Linux Containers (LXC), and around configuration management software such as Ansible, Chef, Salt, and Puppet
 
 
-# Code repository
-* [BitBucket](https://bitbucket.org) - (by Atlassian)
-* [GitHub](https://github.com)
 
-# Building automation
-* [Gradle](http://gradle.org/) - Enterprise Build Automation
-* [Grunt](http://gruntjs.com/) - JS Task Runner
-* [Maven](https://maven.apache.org/) - (by Apache)
-* [Google Bazel](http://bazel.io) - the Google's multilanguage SW build tool !!!
-* ant
-* scons
-* cmake
-* make
+
+
 
 # Databases
 * [Apache Cassandra](http://cassandra.apache.org/) - (by Facebook) the highest performing distributed NoSQL DBMS, uses Amazon Dynamo principles
@@ -72,6 +62,61 @@
 * [Node.js](https://nodejs.org/en/) - Javascript runtime with even-driven asynchronous (non-blocking) I/O based on libuv. Allows for highly-scalable event-driven programming (with callbacks), without the need for threading.
 * [React](https://facebook.github.io/react/index.html) - Facebook's Javascript library for GUI (aka the V in MVC)
 * [Sinatra](http://www.sinatrarb.com/) - Very simple Ruby framework for web app dev
+
+# Programming 
+## Beautification
+* indent
+* AStyle
+
+## Build automation
+* [Gradle](http://gradle.org/) - Enterprise Build Automation
+* [Grunt](http://gruntjs.com/) - JS Task Runner
+* [Maven](https://maven.apache.org/) - (by Apache)
+* [Google Bazel](http://bazel.io) - the Google's multilanguage SW build tool !!!
+* ant
+* scons
+* cmake
+* make
+* pkg-config
+* automake, autoconfigure
+
+## Code sharing
+* [BitBucket](https://bitbucket.org) - (by Atlassian)
+* [GitHub](https://github.com)
+
+## Debuggers
+* ddd
+* gdb
+* IDA
+* LLDB (from the LLVM project)
+* ollydbg
+* WinDbg
+
+## Library interface generator
+* swig
+
+## Static code analysis
+* lint
+
+## Unit testing
+* GoogleTest & GoogleMock
+
+## Verification
+* dmalloc
+* Electric Fence
+* Parasoft Insure++
+* Valgrind
+* [Visual Leak Detector for Visual C++ 2008-2015](https://vld.codeplex.com/) - free
+* Rational Purify
+
+## Version control
+* ClearCase
+* darcs
+* git
+* mercurial
+* Perforce
+* svn
+
 
 # Software bundles / Solution stacks
 
