@@ -23,6 +23,10 @@
 * [Pixate](http://www.pixate.com/) - (built on Electron)
 * [UXpin](www.uxpin.com) - professional platform for wireframe, mockup, prototype, usability testing
 
+# Graphical design
+* [Canva](https://www.canva.com/) - login via Google. Has a nice graphical design school
+* [Visme](http://www.visme.co/) - login via private account
+
 # Cloud-based platforms
 * Rackspace, Internap, Amazon EC2, Google Cloud Platform, OpenStack, SoftLayer, and Microsoft Azure
 * [Dokku](https://github.com/dokku/dokku) - A very minimalist PaaS powered by Docker

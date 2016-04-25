@@ -31,12 +31,22 @@
 * [Datamarket](https://datamarket.com/)
 * [Finding data on Internet](http://www.inside-r.org/howto/finding-data-internet) - A collection of data sources
 * [European Data Portal](http://www.europeandataportal.eu/en/)
-
+* [ImageNet (Stanford/Princeton](http://www.image-net.org/) - enormous image bank organized according to WordNet hierarchy, for algorithm training
+* [WordNet (Princeton)](http://wordnet.princeton.edu/) - A lexical database for English
 
 # Studies, Reports, Trends, Surveys, Polls
 * [PewForum, PewResearch](http://www.pewresearch.org/), [Pew Social Trends](http://www.pewsocialtrends.org/), [Pew Global](http://www.pewglobal.org/) - a lot of demographic and social studies and research and and....
+* [How much money you need to live comfortably in the US cities](http://www.gobankingrates.com/personal-finance/much-money-need-live-comfortably-biggest-cities/)
+* [10 US states least likely to live paycheck-to-paycheck](http://www.gobankingrates.com/personal-finance/10-states-least-likely-live-paycheck-paycheck/)
 
 
-# Statistical Learning
+# Statistical/Machine/Deep Learning
 * [The ISLR Course](http://www-bcf.usc.edu/~gareth/ISL/) - The Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani famous "Introduction to Statistical Learning with Applications in R" course + the free book. These are the authors of the deeper * [Elements of Statistical Learning](http://www-stat.stanford.edu/~tibs/ElemStatLearn/). They also have a [MOOC at Stanford about Statistical Learning](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about), and [student provided solutions](https://github.com/asadoughi/stat-learning). All the videos and slides for this MOOC are easily accessible on  [R-bloggers](http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/)
 * [NIST/SEMATECH e-Handbook of Statistical Methods](http://www.itl.nist.gov/div898/handbook/index.htm)
+* [DeepLearning.net](http://deeplearning.net/) - links to books, SW, tutorials, jobs for Deep Learning
+* [Classification Dataset Results](http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html) - Object Classification Competitions current results and record holders
+
+# SW
+* [theano]
+* [TensorFlow](https://www.tensorflow.org/) - TensorFlow is an open source software library for numerical computation using data flow graphs for machine intelligence
+* [SeaBorn](http://stanford.edu/~mwaskom/software/seaborn/) - statistical data visualization module on top of Matplotlib
