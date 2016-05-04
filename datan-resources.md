@@ -9,7 +9,7 @@
 * [The Yhat Blog](http://blog.yhat.com/) - Machine learning, data science, engineering
 * [Kaggle - The House of DataScience](https://www.kaggle.com/) - job board, tutorials, projects, competitions, datasets
 * [Dataquest](https://www.dataquest.io/) - Learn real-world data science skills. Has education on different Data Science Tracks--Data Analyst, Data Scientist, Data Engineer
-
+* [Kennis-Research](https://kennis-research.com) - data analysis company who makes a lot of Shiny apps, e.g. the one for the [ROC curves](https://kennis-research.shinyapps.io/ROC-Curves/)
 
 
 # Great visualizations
@@ -45,6 +45,8 @@
 * [NIST/SEMATECH e-Handbook of Statistical Methods](http://www.itl.nist.gov/div898/handbook/index.htm)
 * [DeepLearning.net](http://deeplearning.net/) - links to books, SW, tutorials, jobs for Deep Learning
 * [Classification Dataset Results](http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html) - Object Classification Competitions current results and record holders
+* [Machine Learning Blog of Charles H Martin, PhD](https://charlesmartin14.wordpress.com/)
+* [Kernel Machines.org](http://www.kernel-machines.org/) - page devoted to learning methods building on kernels, such as the support vector machine
 
 # SW
 * [theano]
