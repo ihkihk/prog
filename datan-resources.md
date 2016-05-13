@@ -11,8 +11,15 @@
 * [Dataquest](https://www.dataquest.io/) - Learn real-world data science skills. Has education on different Data Science Tracks--Data Analyst, Data Scientist, Data Engineer
 * [Kennis-Research](https://kennis-research.com) - data analysis company who makes a lot of Shiny apps, e.g. the one for the [ROC curves](https://kennis-research.shinyapps.io/ROC-Curves/)
 
+# Data visualizations
+## Theory, tools
+* [Visual Literacy](http://www.visual-literacy.org/index.html) - great site of the UoStGallen, contains the famous Periodic Table of Visual Tools
+* [7 Management and Planning Tools](https://en.wikipedia.org/wiki/Seven_Management_and_Planning_Tools)
+* [7 Basic Tools of Quality](https://en.wikipedia.org/wiki/Seven_Basic_Tools_of_Quality)
+* [ASQ's Quality Tools Compendium](http://asq.org/learn-about-quality/quality-tools.html)
 
-# Great visualizations
+
+## Great visualizations
 * [Conditional Probability](http://setosa.io/ev/conditional-probability/)
 * [Eigenvectors/values](http://setosa.io/ev/eigenvectors-and-eigenvalues/)
 * [Traffic Gridlocks vs. Bottlenecks](http://setosa.io/blog/2014/09/02/gridlock/)
@@ -21,6 +28,7 @@
 * [Monty Hall Door switches](http://blog.vctr.me/monty-hall/)
 * [Principal Component Analysis (PCA)](http://setosa.io/ev/principal-component-analysis/)
 * [Traffic waves](http://ww2.kqed.org/lowdown/2013/11/12/traffic-waves/)
+* [Michael Bostock's Blocks](http://bl.ocks.org/) - all of them done in d3.js
 
 # Data sources
 * [Quandl](https://www.quandl.com/) - Access to millions of datasets, mostly economical and financial, with capability for exporting them to R, Python and many other tools
@@ -33,6 +41,7 @@
 * [European Data Portal](http://www.europeandataportal.eu/en/)
 * [ImageNet (Stanford/Princeton](http://www.image-net.org/) - enormous image bank organized according to WordNet hierarchy, for algorithm training
 * [WordNet (Princeton)](http://wordnet.princeton.edu/) - A lexical database for English
+* [NaturalEarth](http://www.naturalearthdata.com/) - public domain map dataset available at 1:10m, 1:50m, and 1:110 million scales
 
 # Studies, Reports, Trends, Surveys, Polls
 * [PewForum, PewResearch](http://www.pewresearch.org/), [Pew Social Trends](http://www.pewsocialtrends.org/), [Pew Global](http://www.pewglobal.org/) - a lot of demographic and social studies and research and and....

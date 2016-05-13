@@ -9,6 +9,7 @@
 * redbooth (best for 2015)
 * huddle (best for 2015)
 * nutcache (best for 2015) - can be useful for own company
+* slack.com - cloud-based team collaboration tool
 
 # GUI mockup, prototyping
 
@@ -84,9 +85,12 @@
 * pkg-config
 * automake, autoconfigure
 
-## Code sharing
+## Code sharing & Collaborative Development & Online execution
 * [BitBucket](https://bitbucket.org) - (by Atlassian)
 * [GitHub](https://github.com)
+* [Gists](gist.github.com)
+* [JS-Bin](http://jsbin.com/)
+
 
 ## Debuggers
 * ddd
