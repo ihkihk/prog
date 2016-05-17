@@ -10,6 +10,7 @@
 * huddle (best for 2015)
 * nutcache (best for 2015) - can be useful for own company
 * slack.com - cloud-based team collaboration tool
+* http://www.simultrain.com/ - Project Manager Simulator !
 
 # GUI mockup, prototyping
 
