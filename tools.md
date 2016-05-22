@@ -10,6 +10,7 @@
 * huddle (best for 2015)
 * nutcache (best for 2015) - can be useful for own company
 * slack.com - cloud-based team collaboration tool
+* http://www.simultrain.com/ - Project Manager Simulator !
 
 # File transfer / Cloud storage
 * [WeTransfer](https://www.wetransfer.com)
@@ -90,12 +91,15 @@
 * pkg-config
 * automake, autoconfigure
 
-## Code sharing & Collaborative Development & Online execution
+## Code sharing & Collaborative Development & Online execution & Online IDEs
 * [BitBucket](https://bitbucket.org) - (by Atlassian)
 * [GitHub](https://github.com)
 * [Gists](gist.github.com)
 * [JS-Bin](http://jsbin.com/)
-
+* [CodePen](http://codepen.io/) - for HTML/CSS/JS codesharing
+* [CodeAnywhere](https://codeanywhere.com)
+* [C9 IDE](https://c9.io/)
+* [Koding](http://www.koding.com/)
 
 ## Debuggers
 * ddd
@@ -147,8 +151,9 @@
 
 ## Visualization
 * [d3.js](http://d3js.org/)
-* [plot.ly](https://plot.ly) - an online chart and dashboard for D3 diagramming and open-source library (plotly) for Python, R
+* [plot.ly](https://plot.ly) - an online chart and dashboard for D3 diagramming and open-source library (plotly) for Python, R, node.js, ggplot...
 * [Vega](http://vega.github.io/) - a JSON based visualization grammar; generates interactive views via HTML5 Canvas or SVG
+* [RAW](http://raw.densitydesign.org/) - a simple online tool for making pre-defined D3 graphs by importing a data file
 
 ## Maps, GIS
 * [Turf.js](https://www.mapbox.com/analysis/) - open-source library for geospatial analysis on web maps
