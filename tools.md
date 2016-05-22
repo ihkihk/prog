@@ -11,6 +11,11 @@
 * nutcache (best for 2015) - can be useful for own company
 * slack.com - cloud-based team collaboration tool
 
+# File transfer / Cloud storage
+* [WeTransfer](https://www.wetransfer.com)
+* [DropBox](https://www.DropBox.com)
+* [Box](https://www.box.com)
+
 # GUI mockup, prototyping
 
 ## Desktop tools
@@ -68,7 +73,7 @@
 * [React](https://facebook.github.io/react/index.html) - Facebook's Javascript library for GUI (aka the V in MVC)
 * [Sinatra](http://www.sinatrarb.com/) - Very simple Ruby framework for web app dev
 
-# Programming 
+# Programming
 ## Beautification
 * indent
 * AStyle

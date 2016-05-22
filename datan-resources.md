@@ -17,7 +17,14 @@
 * [7 Management and Planning Tools](https://en.wikipedia.org/wiki/Seven_Management_and_Planning_Tools)
 * [7 Basic Tools of Quality](https://en.wikipedia.org/wiki/Seven_Basic_Tools_of_Quality)
 * [ASQ's Quality Tools Compendium](http://asq.org/learn-about-quality/quality-tools.html)
-
+* [The Encyclopedia of Human-Computer Interaction, 2nd Ed.](https://www.interaction-design.org/literature)
+* http://www.thefunctionalart.com/ - Alberto Cairo's blog on Visualization
+* http://visualisingdata.com/
+* http://www.storytellingwithdata.com/
+* http://helpmeviz.com/
+* http://www.tableausoftware.com/public/
+* http://raw.densitydesign.org/
+* http://www.adobe.com/products/illustrator.html
 
 ## Great visualizations
 * [Conditional Probability](http://setosa.io/ev/conditional-probability/)
@@ -29,6 +36,7 @@
 * [Principal Component Analysis (PCA)](http://setosa.io/ev/principal-component-analysis/)
 * [Traffic waves](http://ww2.kqed.org/lowdown/2013/11/12/traffic-waves/)
 * [Michael Bostock's Blocks](http://bl.ocks.org/) - all of them done in d3.js
+* [GapMinder](www.gapminder.org) - A fact-based worldview
 
 # Data sources
 * [Quandl](https://www.quandl.com/) - Access to millions of datasets, mostly economical and financial, with capability for exporting them to R, Python and many other tools
