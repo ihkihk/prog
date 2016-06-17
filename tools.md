@@ -109,6 +109,10 @@
 * ollydbg
 * WinDbg
 
+## Documentation
+* [Sphinx](www.sphinx-doc.org)
+* [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
+
 ## Library interface generator
 * swig
 
@@ -191,6 +195,8 @@
 * [Asciinema](https://asciinema.org/) - records as a text-searchable video terminal sessions!
 * [GitBook](https://www.gitbook.com)--- (logged with Github account) Supports TeX
 * [Ottobib](www.ottobib.com) - searches for book by ISBN and prepares its bibtex entry
+* [ISBN-to-Bibtex](http://manas.tungare.name/software/isbn-to-bibtex/) - searches for book by ISBN and prepares its bibtex entry
+* [Lead2Amazon](http://lead.to/amazon/en/) - searches for book by ISBN and prepares its bibtex entry
 * [doi2bib](www.doi2bib.org) - searches for media by DOI and prepares its bibtex entry
 * [ShareLatex](https://www.sharelatex.com) --- For Latex documents
 * [TableGenerator]({www.tablesgenerator.com}) --- Table generator for many formats (incl. Latex)
