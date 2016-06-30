@@ -5,7 +5,7 @@ Spec "Editor Functionality"
 
 Navigation / Selection
 ----------------------
-* Move cursor (with optional search and selection at the same time)
+* Move multi-cursor (with optional search and selection at the same time)
 - left, right, up, down
 - next/previous element
 - next/previous search result
@@ -44,6 +44,7 @@ Text view
 * View whitespace
 * Full-screen
 * Alway on top with transparent background
+* Show changes and blames
 
 
 Text generation

@@ -25,6 +25,18 @@
 * http://www.tableausoftware.com/public/
 * http://raw.densitydesign.org/
 * http://www.adobe.com/products/illustrator.html
+* [Common mistakes in using statistics](https://www.ma.utexas.edu/users/mks/statmistakes/StatisticsMistakes.html)
+* [ChartChooser](http://labs.juiceanalytics.com/chartchooser/index.html) - tool for improved Excel and PowerPoint charts
+* [RAW](http://app.raw.densitydesign.org/)
+* [plot.ly](https://plot.ly/)
+* [Tableau](https://public.tableau.com/s/)
+Kernel Methods: http://kernel-methods.net
+Support Vectors: http://support-vector.net
+A collection of resources or SVM: http://svms.org
+Everythong you Want to Know about Kernel Trick: http://www.eric-kim.net/eric-kim-net/posts/1/kernel_trick.html
+Building Hidden Markov Models in Python: http://hmmlearn.readthedocs.org/en/latest
+
+
 
 ## Great visualizations
 * [Conditional Probability](http://setosa.io/ev/conditional-probability/)
