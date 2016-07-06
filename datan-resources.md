@@ -10,6 +10,8 @@
 * [Kaggle - The House of DataScience](https://www.kaggle.com/) - job board, tutorials, projects, competitions, datasets
 * [Dataquest](https://www.dataquest.io/) - Learn real-world data science skills. Has education on different Data Science Tracks--Data Analyst, Data Scientist, Data Engineer
 * [Kennis-Research](https://kennis-research.com) - data analysis company who makes a lot of Shiny apps, e.g. the one for the [ROC curves](https://kennis-research.shinyapps.io/ROC-Curves/)
+* [Stephen Few's PerceptualEdge blog](www.perceptualedge.com/blog)
+* [Stephen Few's PerceptualEdge articles](www.perceptualedge.com/library.php)
 
 # Data visualizations
 ## Theory, tools
@@ -35,6 +37,9 @@ Support Vectors: http://support-vector.net
 A collection of resources or SVM: http://svms.org
 Everythong you Want to Know about Kernel Trick: http://www.eric-kim.net/eric-kim-net/posts/1/kernel_trick.html
 Building Hidden Markov Models in Python: http://hmmlearn.readthedocs.org/en/latest
+* [Adobe Color Wheel](https://color.adobe.com/create/color-wheel/)
+* [Cynthia Brewer's ColorBrewer](http://colorbrewer2.org/)
+* [NASA Ames Center Color Tool](http://colorusage.arc.nasa.gov/ColorTool_appletPC.html)
 
 
 
@@ -49,6 +54,7 @@ Building Hidden Markov Models in Python: http://hmmlearn.readthedocs.org/en/late
 * [Traffic waves](http://ww2.kqed.org/lowdown/2013/11/12/traffic-waves/)
 * [Michael Bostock's Blocks](http://bl.ocks.org/) - all of them done in d3.js
 * [GapMinder](www.gapminder.org) - A fact-based worldview
+* [VisualCapitalist](www.VisualCapitalist.com) - A lot of infographics
 
 # Data sources
 * [Quandl](https://www.quandl.com/) - Access to millions of datasets, mostly economical and financial, with capability for exporting them to R, Python and many other tools
