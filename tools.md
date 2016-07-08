@@ -14,6 +14,7 @@
 
 # File transfer / Cloud storage
 * [WeTransfer](https://www.wetransfer.com)
+* [Send18](https://www.send18.com)
 * [DropBox](https://www.DropBox.com)
 * [Box](https://www.box.com)
 
@@ -94,7 +95,8 @@
 ## Code sharing & Collaborative Development & Online execution & Online IDEs
 * [BitBucket](https://bitbucket.org) - (by Atlassian)
 * [GitHub](https://github.com)
-* [Gists](gist.github.com)
+* [Gists](https://gist.github.com)
+* [Mike Bostock's Gist viewer - Bl.ocks.org](http://bl.ocks.org/ihkihk/)
 * [JS-Bin](http://jsbin.com/)
 * [CodePen](http://codepen.io/) - for HTML/CSS/JS codesharing
 * [CodeAnywhere](https://codeanywhere.com)
@@ -200,6 +202,7 @@
 * [doi2bib](www.doi2bib.org) - searches for media by DOI and prepares its bibtex entry
 * [ShareLatex](https://www.sharelatex.com) --- For Latex documents
 * [TableGenerator]({www.tablesgenerator.com}) --- Table generator for many formats (incl. Latex)
+* [Latex-to-Image generator](http://www.sciweavers.org/free-online-latex-equation-editor)
 * [Detexify](http://detexify.kirelabs.org/classify.html) - Latex Symbol Recognizer
 * [Markdown Live Preview](http://markdownlivepreview.com/)
 * [MindMup](https://www.mindmup.com) - free online mindmapping with possibility to write to GoogleDrive

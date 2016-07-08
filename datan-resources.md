@@ -12,6 +12,7 @@
 * [Kennis-Research](https://kennis-research.com) - data analysis company who makes a lot of Shiny apps, e.g. the one for the [ROC curves](https://kennis-research.shinyapps.io/ROC-Curves/)
 * [Stephen Few's PerceptualEdge blog](www.perceptualedge.com/blog)
 * [Stephen Few's PerceptualEdge articles](www.perceptualedge.com/library.php)
+* [DataRemixed](http://dataremixed.com/) - has a nice article about [aesthetics of graphs](http://dataremixed.com/2012/05/clarity-or-aesthetics-part-2-a-tale-of-four-quadrants/)
 
 # Data visualizations
 ## Theory, tools
