@@ -10,6 +10,12 @@
 # Angular.JS
 * [AtJanus' beg guide](http://antjanus.com/blog/web-development-tutorials/front-end-development/comprehensive-beginner-guide-angularjs/)
 
+# JavaScript, HTML, CSS
+* [JS is sexy](http://javascriptissexy.com/) - a blog with great pro explanatory articles
+* [Named Functions demystified](http://kangax.github.io/nfe/)
+* [CSS Tricks](https://css-tricks.com/)
+* [Dash](https://dash.generalassemb.ly/)  - lern HTML/CSS/JS by doing projects in your own browser
+
 # MongoDB
 [Introduction to MongoDB using the MEAN Stack on Edx](https://www.edx.org/course/introduction-mongodb-using-mean-stack-mongodbx-m101x#!)
 [MongoDB Thinking in Documents Webinar](https://www.mongodb.com/presentations/webinar-back-to-basics-thinking-in-documents?p=55f080b16d6f6e7e15030000&utm_campaign=T6_V2_DEV_AM_E5_Schema%20Design%20-%20A&utm_medium=email&utm_source=Eloqua)
@@ -24,7 +30,7 @@
 [R-Cookbook](http://www.cookbook-r.com/) - this is not the book!
 [R-Bloggers](http://www.r-bloggers.com/)
 [Data Wrangling with R (dplyr, tidyr)](https://dl.dropboxusercontent.com/u/5896466/wrangling-webinar.pdf)
-[Inside-R](http://www.inside-r.org/) - A Community Site for R – Sponsored by Revolution Analytics
+[Inside-R](http://www.inside-r.org/) - A Community Site for R ï¿½ Sponsored by Revolution Analytics
 
 # Computer Science
 ## Lambda calculus, Functional programming

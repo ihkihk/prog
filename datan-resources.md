@@ -24,6 +24,7 @@
 * http://www.thefunctionalart.com/ - Alberto Cairo's blog on Visualization
 * http://visualisingdata.com/
 * http://www.storytellingwithdata.com/
+* http://infosthetics.com/
 * http://helpmeviz.com/
 * http://www.tableausoftware.com/public/
 * http://raw.densitydesign.org/
@@ -32,7 +33,10 @@
 * [ChartChooser](http://labs.juiceanalytics.com/chartchooser/index.html) - tool for improved Excel and PowerPoint charts
 * [RAW](http://app.raw.densitydesign.org/)
 * [plot.ly](https://plot.ly/)
+* [Chartio](https://chartio.com/) - business data analytics and charts
 * [Tableau](https://public.tableau.com/s/)
+* [NVD3](http://nvd3.org/) - reusable charts for d3.js
+* [Rickshaw](http://code.shutterstock.com/rickshaw/) - JS toolkit for creating interactive time charts built on d3.js
 Kernel Methods: http://kernel-methods.net
 Support Vectors: http://support-vector.net
 A collection of resources or SVM: http://svms.org
@@ -41,6 +45,8 @@ Building Hidden Markov Models in Python: http://hmmlearn.readthedocs.org/en/late
 * [Adobe Color Wheel](https://color.adobe.com/create/color-wheel/)
 * [Cynthia Brewer's ColorBrewer](http://colorbrewer2.org/)
 * [NASA Ames Center Color Tool](http://colorusage.arc.nasa.gov/ColorTool_appletPC.html)
+* [Vischeck](http://www.vischeck.com/) - simulator of colorblind visualizations
+* [Daltonize](http://www.vischeck.com/daltonize/) - colorblind image correction
 
 
 
@@ -56,6 +62,12 @@ Building Hidden Markov Models in Python: http://hmmlearn.readthedocs.org/en/late
 * [Michael Bostock's Blocks](http://bl.ocks.org/) - all of them done in d3.js
 * [GapMinder](www.gapminder.org) - A fact-based worldview
 * [VisualCapitalist](www.VisualCapitalist.com) - A lot of infographics
+* [WorldMapper](http://www.worldmapper.org/) - many cartograms
+
+## Bad visualizations
+[Cartastrophe](https://cartastrophe.wordpress.com/) - where bad maps come from?
+
+
 
 # Data sources
 * [Quandl](https://www.quandl.com/) - Access to millions of datasets, mostly economical and financial, with capability for exporting them to R, Python and many other tools
@@ -88,3 +100,4 @@ Building Hidden Markov Models in Python: http://hmmlearn.readthedocs.org/en/late
 * [theano]
 * [TensorFlow](https://www.tensorflow.org/) - TensorFlow is an open source software library for numerical computation using data flow graphs for machine intelligence
 * [SeaBorn](http://stanford.edu/~mwaskom/software/seaborn/) - statistical data visualization module on top of Matplotlib
+* [ScapeToad](http://scapetoad.choros.ch/) - SW for creating cartograms.

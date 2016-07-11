@@ -39,6 +39,7 @@
 * Rackspace, Internap, Amazon EC2, Google Cloud Platform, OpenStack, SoftLayer, and Microsoft Azure
 * [Dokku](https://github.com/dokku/dokku) - A very minimalist PaaS powered by Docker
 * [Heroku](https://www.heroku.com/platform) - Platform-as-a-Service for deplying apps in *dynos*
+* [ownCloud](https://owncloud.org/) - for setting up one's private Cloud
 
 # Continuous Integration & SW Build/Project management
 * [jenkins](https://jenkins-ci.org/) - former 'hudson'
@@ -54,10 +55,6 @@
 # Containers and virtualization
 * [Docker](https://www.docker.com/)
 * [Vagrant](https://www.vagrantup.com/) - Create and configure lightweight, reproducible, and portable development environments. Higher-level wrapper around virtualization software such as VirtualBox, VMware, KVM and Linux Containers (LXC), and around configuration management software such as Ansible, Chef, Salt, and Puppet
-
-
-
-
 
 
 # Databases
@@ -222,6 +219,7 @@
 * [Maptiler](http://www.maptiler.com/) - Prepare custom map overlays and tiles
 * [Maperitive](http://maperitive.net/) - Free tool for drawing maps based on OpenStreetMap and GPS data
 * [Overpass-Turbo](http://overpass-turbo.eu/) - Server for authoring and performing queries agains OpentStreetMap
+* [Ogre](http://ogre.adc4gis.com/) - web client for the ogr2ogr tool (converter Shapefile <-> GeoJSON)
 
 # Drawing and diagramming
 * [Draw.io](www.draw.io)
