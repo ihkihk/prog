@@ -95,10 +95,12 @@
 * [Gists](https://gist.github.com)
 * [Mike Bostock's Gist viewer - Bl.ocks.org](http://bl.ocks.org/ihkihk/)
 * [JS-Bin](http://jsbin.com/)
+* [JSfiddle](https://jsfiddle.net/)
 * [CodePen](http://codepen.io/) - for HTML/CSS/JS codesharing
 * [CodeAnywhere](https://codeanywhere.com)
 * [C9 IDE](https://c9.io/)
 * [Koding](http://www.koding.com/)
+* [RawGit](http://rawgit.com/) - RawGit serves raw files directly from GitHub with proper Content-Type headers.
 
 ## Debuggers
 * ddd
@@ -157,9 +159,13 @@
 * [plot.ly](https://plot.ly) - an online chart and dashboard for D3 diagramming and open-source library (plotly) for Python, R, node.js, ggplot...
 * [Vega](http://vega.github.io/) - a JSON based visualization grammar; generates interactive views via HTML5 Canvas or SVG
 * [RAW](http://raw.densitydesign.org/) - a simple online tool for making pre-defined D3 graphs by importing a data file
+* [Tableau](http://www.tableau.com/) - they also have a [public](https://public.tableau.com/s/) version with a nice data viz blog!
+* [Alteryx](http://www.alteryx.com/) - the leader of self-service Data analytics, data blending and BI
+
 
 ## Maps, GIS
 * [Turf.js](https://www.mapbox.com/analysis/) - open-source library for geospatial analysis on web maps
+* [Leaflet.js](http://leafletjs.com/) - an open-source JavaScript library for mobile-friendly interactive maps
 
 ## System-level
 * [libevent](http://libevent.org/) - library for asynchronous event notification (epoll, poll, select, kqueue)
@@ -179,6 +185,8 @@
 
 * [snort](https://www.snort.org) - IDS and IPS (intrusion-detection and intrusion-prevention system)
 * [Nagios](http://www.nagios.com) - Network monitoring
+* [nGrok](https://ngrok.com) - Secure introspected tunnels thru firewalls to a localhost-based server
+
 
 # Programmer's toolbox
 * [Atom](http://atom.io) - (built with Electron by GitHub) - code editor!
