@@ -15,6 +15,7 @@
 * [Named Functions demystified](http://kangax.github.io/nfe/)
 * [CSS Tricks](https://css-tricks.com/)
 * [Dash](https://dash.generalassemb.ly/)  - lern HTML/CSS/JS by doing projects in your own browser
+* [Eloquent JavaScript, 2ed (online book)](http://eloquentjavascript.net/)
 
 # MongoDB
 [Introduction to MongoDB using the MEAN Stack on Edx](https://www.edx.org/course/introduction-mongodb-using-mean-stack-mongodbx-m101x#!)

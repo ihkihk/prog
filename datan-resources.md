@@ -13,6 +13,8 @@
 * [Stephen Few's PerceptualEdge blog](www.perceptualedge.com/blog)
 * [Stephen Few's PerceptualEdge articles](www.perceptualedge.com/library.php)
 * [DataRemixed](http://dataremixed.com/) - has a nice article about [aesthetics of graphs](http://dataremixed.com/2012/05/clarity-or-aesthetics-part-2-a-tale-of-four-quadrants/)
+* [David Kadavy's Design-for-Hackers blog](http://designforhackers.com/blog/)
+* [The Data Journalism Handbook](http://datajournalismhandbook.org/1.0/en/index.html)
 
 # Data visualizations
 ## Theory, tools
@@ -47,6 +49,7 @@ Building Hidden Markov Models in Python: http://hmmlearn.readthedocs.org/en/late
 * [NASA Ames Center Color Tool](http://colorusage.arc.nasa.gov/ColorTool_appletPC.html)
 * [Vischeck](http://www.vischeck.com/) - simulator of colorblind visualizations
 * [Daltonize](http://www.vischeck.com/daltonize/) - colorblind image correction
+* [OpenRefine (former GoogleRefine)](http://openrefine.org/) - powerful tool for data munging
 
 
 
@@ -63,6 +66,9 @@ Building Hidden Markov Models in Python: http://hmmlearn.readthedocs.org/en/late
 * [GapMinder](www.gapminder.org) - A fact-based worldview
 * [VisualCapitalist](www.VisualCapitalist.com) - A lot of infographics
 * [WorldMapper](http://www.worldmapper.org/) - many cartograms
+* [Mike Bostock's Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
+* [Visual complexity - mapping complex networks
+](http://www.visualcomplexity.com/vc/)
 
 ## Bad visualizations
 [Cartastrophe](https://cartastrophe.wordpress.com/) - where bad maps come from?
@@ -95,6 +101,8 @@ Building Hidden Markov Models in Python: http://hmmlearn.readthedocs.org/en/late
 * [Classification Dataset Results](http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html) - Object Classification Competitions current results and record holders
 * [Machine Learning Blog of Charles H Martin, PhD](https://charlesmartin14.wordpress.com/)
 * [Kernel Machines.org](http://www.kernel-machines.org/) - page devoted to learning methods building on kernels, such as the support vector machine
+* [Online Statistics Education](http://onlinestatbook.com/2/index.html) - An Interactive Multimedia Course of Study by Rice U
+* [Commong Mistakes in Statistics](https://www.ma.utexas.edu/users/mks/statmistakes/StatisticsMistakes.html) - spotting and avoiding them
 
 # SW
 * [theano]
