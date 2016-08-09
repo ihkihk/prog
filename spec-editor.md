@@ -62,12 +62,14 @@ Text generation
 * Paste text from the clipboard performing changes/expansion (e.g. converting entity to component in VHDL)
 * Open blank lines
 * ASCII art and boxes
+* Lorem Ipsum
 
 
 Text editing
 ------------
 * Undo/redo tree
 * Cut/copy/paste in line/column mode with multiple clipboard lines
+* Copy selected item above/before/below/after
 * Replace selected text in line/column mode with clipboard or generated text
 * Replace all occurrences of the element under cursor
 * Replace regexp with a lambda generating function
@@ -76,6 +78,7 @@ Text editing
 * Change encoding
 * Change line endings
 * Remove whitespace
+* Remove lines or elements containing
 * (Un)tabify
 * Compress (thaw) blank lines and other whitespace
 * Syntax-based format
@@ -89,12 +92,24 @@ Text editing
 * Align different elements of a line to the same elements of the previous/next line
 * Align different elements of lines in a group
 * Join/split lines
+* Remove duplicate lines and words
 
+Conversion
+----------
+* Numbers to words
+* String builder
+* HTML encode/decode
+* Base64 encode/decode
+* URL encode/decode
+* Convert from unicode to ascii (e.g. remove accents, use simple dash)
+* Number conversion between bases
+* Escape/unescape JS, JSON, XML, HTML, etc
 
 Context assistance
 ------------------
 * Show help/declaration for an API / element
 * Word/API completion
+* Show char unicode point
 
 Utilities
 ---------
@@ -109,3 +124,6 @@ Utilities
 * Open file in official viewer
 * Send text to shell for execution
 * Registers for storing cursor positions, text, macros
+* Execute any command via palette
+* Go to any file or buffer via palette
+
