@@ -41,14 +41,16 @@
 * Locality
 * Encapsulation (info hiding)
 * Cohesion
-* Non-cyclic dependencies
+* Coupling & Dependency management (avoiding cyclic/non-DAG dependencies)
 * Polymorphism
 * Abstraction
 * (Levels of) indirection
 * Patterns
 * Smells
 * Refactoring
+* Design by contract (Bertrand Meyer)
 
+Quote by Robert C. Martin - OO is just a set of tools and techniques for Dependency Management
 
 # OO design principles
 See <http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod>
