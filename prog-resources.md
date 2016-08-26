@@ -49,3 +49,10 @@
 * [Topcoder](https://www.topcoder.com/) - has also a lot of tutorials
 * [Facebook Hacker Cup](https://www.facebook.com/hackercup)
 * [Google Code Jam](https://code.google.com/codejam/)
+
+# Esoteric & Obfuscated Programming languages
+* [BrainF***]
+* [INTERCAL](http://www.catb.org/~esr/intercal/ick.htm) - the archetype of the Obf Prog Lang
+* Malbolge - probably the most devilish one
+* [Unlambda](http://www.madore.org/~david/programs/unlambda/)
+* 

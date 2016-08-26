@@ -1,12 +1,13 @@
 # Tools
-* GNU coreutils, findutils, cpio, diffutils, sharutils, tar, termutils (tput), mac changer, gpg, screen, sysutils, wget
+* GNU coreutils, findutils, cpio, diffutils, sharutils, tar, termutils (tput), mac changer, gpg, screen/tmux, sysutils
 * GNU grub, ddrescue, direvent, fdisk, gparted, M4, sed, gawk, combine, bool
-* GNU autoconf, automake, binutils, bison, cflow, complexity, cppi, gcc, gdb, indent, make, patch
+* GNU autoconf, automake, binutils, bison, cflow, complexity, cppi, gcc, gdb, indent, make, patch, yacc
 * emacs, emacs-lisp
 * bash, bash programming
 * powershell programming
-* make, scons, ant, gradle, grunt, maven
-* curl, wget, nc
+* make, scons, ant, maven, gradle, grunt, jenkins
+* dockers, 
+* curl, wget, nc, netperf
 * iptables, snort, ssh
 * mongodb, neo4j, 
 
@@ -24,9 +25,14 @@
 
 # Libraries
 * GNU plotutils, readline, ncurses, gengetopt, avl, glib, gss, glibc, libgcrypt, nana, libunistring
+* d3
+* python-ntlk, python scikit-learn, pandas, scipy, numpy
+* libevent/libuv
+* Twisted
+* SSL
 
 # Frameworks
-* Electron
+* Electron, React.js
 * MEAN - MongoDB, Express.js, Angular.js, Node.js
 * .NET
 * Qt
@@ -55,28 +61,27 @@
 
 
 # Languages
+* APL
 * C++/STL/Boost
 * Clisp/Scheme
 * Clojure
+* Cobol
 * CSS/LESS
 * D
 * Erlang
 * Go
+* Groovy
 * Haskell
 * JS/CoffeeScript
 * Lua
 * ML/OCaml
 * Objective-C
-* OpenCL
+* OpenCL / CUDA
 * PHP
 * Ruby
 * Scala
 * Smalltalk
 * Swift
+* UML
+* VHDL, Verilog, SystemC, OVM, SystemVerilog
 * XMLPath, XMLQuery, XSLT
-
-
-# Libraries
-* libevent/libuv
-* Twisted
-* SSL

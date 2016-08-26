@@ -87,6 +87,7 @@ Building Hidden Markov Models in Python: http://hmmlearn.readthedocs.org/en/late
 * [ImageNet (Stanford/Princeton](http://www.image-net.org/) - enormous image bank organized according to WordNet hierarchy, for algorithm training
 * [WordNet (Princeton)](http://wordnet.princeton.edu/) - A lexical database for English
 * [NaturalEarth](http://www.naturalearthdata.com/) - public domain map dataset available at 1:10m, 1:50m, and 1:110 million scales
+* [ECB's Statistical Data Warehouse](http://sdw.ecb.europa.eu/)
 
 # Studies, Reports, Trends, Surveys, Polls
 * [PewForum, PewResearch](http://www.pewresearch.org/), [Pew Social Trends](http://www.pewsocialtrends.org/), [Pew Global](http://www.pewglobal.org/) - a lot of demographic and social studies and research and and....

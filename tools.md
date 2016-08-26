@@ -186,6 +186,8 @@
 * [snort](https://www.snort.org) - IDS and IPS (intrusion-detection and intrusion-prevention system)
 * [Nagios](http://www.nagios.com) - Network monitoring
 * [nGrok](https://ngrok.com) - Secure introspected tunnels thru firewalls to a localhost-based server
+* [netperf] - famous client/server for testing network performance (can be used for driver dev)
+
 
 
 # Programmer's toolbox

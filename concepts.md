@@ -17,12 +17,12 @@
 * Function/procedure
 * Recursion/iteration
 * Selection
-* Continuations/jumps
+* Continuations/jumps/exceptions/coroutines/generators
 * Promises
 
 ## Language concepts
 * variable
-* concurrency
+* concurrency/multitasking
 * parallel computation
 * closure
 * lexical & syntax grammar
