@@ -1,9 +1,10 @@
 # Project management and collaboration
 * yodiz.com - SCRUM tool
-* scrumdo.com
+* scrumdo.com (https://app.scrumdo.com/subscription/expired/etel/staff)
+* scrumdesk.com
 * ganttproject
 * 2-plan desktop
-* wrike.com
+* wrike.com (ikassamakov@etel.ch)
 * snapchat.com
 * basecamp.com  (best for 2015)
 * redbooth (best for 2015)
@@ -99,6 +100,7 @@
 * [CodePen](http://codepen.io/) - for HTML/CSS/JS codesharing
 * [CodeAnywhere](https://codeanywhere.com)
 * [C9 IDE](https://c9.io/)
+* [codenvy.com](https://codenvy.com) - Docker-based devenvs, supports also Android
 * [Koding](http://www.koding.com/)
 * [RawGit](http://rawgit.com/) - RawGit serves raw files directly from GitHub with proper Content-Type headers.
 
@@ -198,6 +200,7 @@
 * [LighTable](http://lighttable.com/) - (built with Electron) The Next Generation Code Editor!
 * [Mancy](http://www.mancy-re.pl/) - (built with Electron and React) Javascript REPL
 * [Rodeo](http://rodeo.yhat.com/) - (built with Electron) Python IDE for data science
+* [Terminal Sexy](https://terminal.sexy) - creating color pallettes/schemes for many different terminals
 * [Wagon](https://www.wagonhq.com/) - (built with Electron) A modern SQL editor
 
 # Authoring, Recording, MindMaps
