@@ -2,6 +2,11 @@
 * [Peter Norvig](http://norvig.com/) - Currently Research Director in Google, AI specialist. Page full of papers and code in Lisp, Python of different projects like solving Sudokus and other puzzles.
 * [Christian Queinnec](https://pages.lip6.fr/Christian.Queinnec/PDF/) - Has many papers by this CS scientists
 
+# General programming
+* [Producing Open Source Software](http://producingoss.com/en/index.html)
+* [Apprenticeship Patterns Guidance for the Aspiring Software Craftsman](http://chimera.labs.oreilly.com/books/1234000001813/index.html)
+* [Game Programming Patterns](http://gameprogrammingpatterns.com/)
+* [How to Do What You Love & Earn What You’re Worth as a Programmer](https://leanpub.com/dowhatyoulove/read#leanpub-auto-the-single-most-important-thing-you-must-do-to-improve-your-programming-career)
 
 # Vim
 * [Learn Vim the Hard Way](http://learnvimscriptthehardway.stevelosh.com/) - online book for Vim scripting
@@ -55,4 +60,4 @@
 * [INTERCAL](http://www.catb.org/~esr/intercal/ick.htm) - the archetype of the Obf Prog Lang
 * Malbolge - probably the most devilish one
 * [Unlambda](http://www.madore.org/~david/programs/unlambda/)
-* 
+*
