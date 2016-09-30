@@ -7,6 +7,7 @@
 * [Apprenticeship Patterns Guidance for the Aspiring Software Craftsman](http://chimera.labs.oreilly.com/books/1234000001813/index.html)
 * [Game Programming Patterns](http://gameprogrammingpatterns.com/)
 * [How to Do What You Love & Earn What You’re Worth as a Programmer](https://leanpub.com/dowhatyoulove/read#leanpub-auto-the-single-most-important-thing-you-must-do-to-improve-your-programming-career)
+* [Catalog of Patterns of EA by Martin Fowler](http://martinfowler.com/eaaCatalog/index.html)
 
 # Vim
 * [Learn Vim the Hard Way](http://learnvimscriptthehardway.stevelosh.com/) - online book for Vim scripting
@@ -61,3 +62,7 @@
 * Malbolge - probably the most devilish one
 * [Unlambda](http://www.madore.org/~david/programs/unlambda/)
 *
+
+# Web programming
+* [FreeCodeCamp](www.freecodecamp.com) - teaching front/back-end progr
+* [The Odin Project](www.theodinproject.com) - teaching Ruby-on-Rails

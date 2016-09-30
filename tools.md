@@ -11,7 +11,9 @@
 * huddle (best for 2015)
 * nutcache (best for 2015) - can be useful for own company
 * slack.com - cloud-based team collaboration tool
-* http://www.simultrain.com/ - Project Manager Simulator !
+* weekdone.com - tool for following progress and team collaboration and OKRs (Objectives and Key Results)
+* http://www.simultrain.com/ - Project Manager Simulator (swiss)!
+* [Redmine](www.redmine.org) - open-source web-based project management
 
 # File transfer / Cloud storage
 * [WeTransfer](https://www.wetransfer.com)
@@ -35,6 +37,7 @@
 # Graphical design
 * [Canva](https://www.canva.com/) - login via Google. Has a nice graphical design school
 * [Visme](http://www.visme.co/) - login via private account
+* [Sketch](www.sketchapp.com) - one of the best vector-graphics Mac apps for UX design (99$)
 
 # Cloud-based platforms
 * Rackspace, Internap, Amazon EC2, Google Cloud Platform, OpenStack, SoftLayer, and Microsoft Azure
@@ -72,6 +75,9 @@
 * [Node.js](https://nodejs.org/en/) - Javascript runtime with even-driven asynchronous (non-blocking) I/O based on libuv. Allows for highly-scalable event-driven programming (with callbacks), without the need for threading.
 * [React](https://facebook.github.io/react/index.html) - Facebook's Javascript library for GUI (aka the V in MVC)
 * [Sinatra](http://www.sinatrarb.com/) - Very simple Ruby framework for web app dev
+* [Backbone.js](www.backbone.js)
+* [Twitter's Bootstrap.js](http://getbootstrap.com/)
+* [jQuery](https://jquery.com/)
 
 # Programming
 ## Beautification
@@ -233,13 +239,18 @@
 * [Maperitive](http://maperitive.net/) - Free tool for drawing maps based on OpenStreetMap and GPS data
 * [Overpass-Turbo](http://overpass-turbo.eu/) - Server for authoring and performing queries agains OpentStreetMap
 * [Ogre](http://ogre.adc4gis.com/) - web client for the ogr2ogr tool (converter Shapefile <-> GeoJSON)
+* TabShapeR - tool to import shapefiles into Tableau via R
 
 # Drawing and diagramming
 * [Draw.io](www.draw.io)
 * [LucidChart](www.lucidchart.com)
 * [CreateLy](creately.com)
 * [TinkerCAD](www.tinkercad.com) - 3D modeling
+* [Umbrello KDE's UML Modeler](https://umbrello.kde.org)
 
+# Wikis
+* Moin-Moin
+* [TiddlyWike](www.tiddlywiki.com) - one-page non-linear personal HTML5/JS Wiki!
 
 # Technologies & Protocols
 
@@ -247,6 +258,9 @@
 * [Oauth](http://oauth.net/)
 * Kerberos
 * RADIUS, DIAMETER
+
+## Web facilitation
+* [Gravatar](https://en.gravatar.com/) - globally-recognized avatars
 
 
 ## LML (Little Markup languages)
