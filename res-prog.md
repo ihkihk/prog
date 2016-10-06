@@ -8,6 +8,7 @@
 * [Game Programming Patterns](http://gameprogrammingpatterns.com/)
 * [How to Do What You Love & Earn What You’re Worth as a Programmer](https://leanpub.com/dowhatyoulove/read#leanpub-auto-the-single-most-important-thing-you-must-do-to-improve-your-programming-career)
 * [Catalog of Patterns of EA by Martin Fowler](http://martinfowler.com/eaaCatalog/index.html)
+* [Many free ebooks on many prog languages](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
 
 # Vim
 * [Learn Vim the Hard Way](http://learnvimscriptthehardway.stevelosh.com/) - online book for Vim scripting
@@ -48,6 +49,8 @@
 
 ## Programming problems/quizzes
 * [Project Euler](https://projecteuler.net) - Contains 531 riddles of increasing difficulty
+* [codingbat.com/](http://codingbat.com/) - progr. problems in JAva/PYthon
+* [codestepbystep.com/](http://www.codestepbystep.com/) - Practice solving coding problems online in your browser in C++, Java, Python, and more!
 
 
 # Hackathons, coding
@@ -66,3 +69,4 @@
 # Web programming
 * [FreeCodeCamp](www.freecodecamp.com) - teaching front/back-end progr
 * [The Odin Project](www.theodinproject.com) - teaching Ruby-on-Rails
+* [Codecademy.com/](https://www.codecademy.com/) - Online learning of web/SQL/Python/APIs etc
