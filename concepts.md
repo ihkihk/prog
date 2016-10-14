@@ -22,7 +22,7 @@
 
 ## Language concepts
 * variable
-* concurrency/multitasking
+* concurrency/multitasking - (concurrency is used to increase throughput when several CPUs are present, or responsiveness)
 * parallel computation
 * closure
 * lexical & syntax grammar
@@ -35,6 +35,7 @@
 
 # General programming principles
 * Main goal of architecture is flexibility, maintainability, and scalability
+* Real code is maintainable code!
 * DRY - Don't Repeat Yourself
 * YAGNI - part of XP. You ain't gonna need it
 * KISS - keep it simple stupid
