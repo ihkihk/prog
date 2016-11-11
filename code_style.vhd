@@ -1,11 +1,11 @@
 VHDL code style:
 
 -- Naming conventions
--- register signals - _[n]r[<clk_id>] --> _r, _nrclk, _rclk1
--- reclocked/delayed/resync'd signals - _[n]q+[<clk_id>] --> _nq, _qqq, _qqclk1
--- active low signals - _n?
--- combinations signals - <no suffix, except for ports that should be registered by default>
--- ports - _[n]<direction>[s for output signals] --> _ni, _os, _nio, _nos
+-- comb/registered signals with clock domain - _[n]_[<clk_id>]
+-- reclocked/delayed/resync'd signals - _[n]_q+[<clk_id>] --> _n_q, _n_qqq, _n_qqclk1
+-- active low signals - _n
+-- ports - _[n]<direction>[s for comb output signals] --> _ni, _os, _nio, _nos
+-- output ports - _no_clk1, _no
 -- 3-statable ports (only on top level!) - _[n]to
 
 --*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
@@ -78,7 +78,7 @@ entity my is
     generic(
         ACC_TYPE_G : string  := "ABC"; --! bla-bla
         RDWR_G     : integer := 32);   --! bla-bla
-    port (
+    port(
         reset_i : in  std_logic;  --! bla-bla
         clk_o   : out std_logic); --! bla-bla
 end entity my;
@@ -110,6 +110,13 @@ end process hello_world;
 hello : a_o <= '1' when a_i = '1' else
                '0' when a_i = '1' and b_i = '0' and
                         c_i = '1' else
+               null;
+               
+hello : a_o <= '1' 
+               when a_i = '1' else
+               '0' 
+               when a_i = '1' and b_i = '0' and
+                    c_i = '1' else
                null;
                
 drive_is_not_vhp : if (DRIVE_G = "VHP") generate
