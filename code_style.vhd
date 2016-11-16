@@ -7,6 +7,8 @@ VHDL code style:
 -- ports - _[n]<direction>[s for comb output signals] --> _ni, _os, _nio, _nos
 -- output ports - _no_clk1, _no
 -- 3-statable ports (only on top level!) - _[n]to
+-- constants THIS_IS_MY_CONSTANT
+-- generics THIS_IS_MY_WIDTH_G
 
 --*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 --! @brief      Vario-SHARC I/F
@@ -57,12 +59,14 @@ VHDL code style:
 --*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 
 --==============================================================================
--- SIGNALS
+-- COMPONENTS
 --==============================================================================
 
 --==============================================================================
--- COMPONENTS
+-- SIGNALS
 --==============================================================================
+
+
 
 --------------------------------------------------------------------------------
 -- Variolink-requested HW reset of the AccurET
@@ -92,8 +96,8 @@ hello_world : process(rst_i, clk_i) is
     end procedure my_proc;
 
     variable a_v : integer := '0'; --! bla-bla
-begin
-    if (rst_i = '1') then
+begin -- process hello_world
+    if rst_i = '1' then
         a_o <= '1';
     elsif rising_edge(clk_i) then
         a_o <= '0';
@@ -104,6 +108,20 @@ begin
         next my_l;
     
     end loop my;
+    
+    case a is
+        when A =>
+            gg <= '0';
+            
+        when B => 
+            gg <= '1';
+        
+        when C =>
+            null;
+            
+        when others =>
+            a <= '0';
+    end case; -- a
     
 end process hello_world;
 
@@ -119,10 +137,10 @@ hello : a_o <= '1'
                     c_i = '1' else
                null;
                
-drive_is_not_vhp : if (DRIVE_G = "VHP") generate
-begin
+drive_is_not_vhp : if DRIVE_G = "VHP" generate
+begin -- generate drive_is_not_vhp
     writes : block is
-    begin
+    begin -- block writes
     end block writes;
     
 end generate drive_is_not_vhp;
