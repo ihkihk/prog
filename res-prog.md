@@ -54,6 +54,7 @@
 
 
 # Hackathons, coding
+* [codewars.com](https://codewars.com)
 * [Codeforces](http://codeforces.com/)
 * [Topcoder](https://www.topcoder.com/) - has also a lot of tutorials
 * [Facebook Hacker Cup](https://www.facebook.com/hackercup)
@@ -64,9 +65,23 @@
 * [INTERCAL](http://www.catb.org/~esr/intercal/ick.htm) - the archetype of the Obf Prog Lang
 * Malbolge - probably the most devilish one
 * [Unlambda](http://www.madore.org/~david/programs/unlambda/)
-*
 
-# Web programming
+# Programming Languages
+* [Elm](http://elm-lang.org/)
+* [Racket (former Mr. Scheme)](http://racket-lang.org/)
+
+# Programming campuses/bootcamps
 * [FreeCodeCamp](www.freecodecamp.com) - teaching front/back-end progr
 * [The Odin Project](www.theodinproject.com) - teaching Ruby-on-Rails
 * [Codecademy.com/](https://www.codecademy.com/) - Online learning of web/SQL/Python/APIs etc
+* [Hackreactor (paid)](http://www.hackreactor.com/)
+
+# Graphical design
+* [Font Squirrel - Free Fonts](https://www.fontsquirrel.com/)
+* [38'000 Free Flat Icons for Windows10, Android, iOS](https://icons8.com/)
+
+# Latex
+* [Latex Templates](https://www.latextemplates.com)
+* [Overleaf - Online Latexing](https://www.overleaf.com)
+* [Sharelatex - Online Latexing](https://www.sharelatex.com)
+* [Amazon-to-Bibtex](http://lead.to/amazon/en)

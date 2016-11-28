@@ -208,6 +208,7 @@
 * [Rodeo](http://rodeo.yhat.com/) - (built with Electron) Python IDE for data science
 * [Terminal Sexy](https://terminal.sexy) - creating color pallettes/schemes for many different terminals
 * [Wagon](https://www.wagonhq.com/) - (built with Electron) A modern SQL editor
+* [Emmet](emmet.io) - Very powerful editor extension for HTML/CSS
 
 # Authoring, Recording, MindMaps
 * [Asciinema](https://asciinema.org/) - records as a text-searchable video terminal sessions!
@@ -223,6 +224,18 @@
 * [Markdown Live Preview](http://markdownlivepreview.com/)
 * [MindMup](https://www.mindmup.com) - free online mindmapping with possibility to write to GoogleDrive
 
+# UML Diagramming tools
+* [ModelIO](https://www.modelio.org/) - open-source
+* [Visual Paradigm](https://www.visual-paradigm.com/)
+* [Eclipse Based Papyrus](http://www.eclipse.org/papyrus/)
+* [GenMyModel](https://www.genmymodel.com/)
+* [ArgoUML](http://argouml.tigris.org/) - free
+* [Sparx Systems' Enterprise Architect](http://www.sparxsystems.com/)
+
+# Statistics
+* [A/B Sampling Size](http://www.evanmiller.org/ab-testing/sample-size.html)
+* [Online stat calculators](http://graphpad.com/quickcalcs/)
+* [Power & Sample Size knowledge & calculators](http://powerandsamplesize.com/)
 
 # Fun tools
 * [Lolcat](https://github.com/busyloop/lolcat) - Ruby script to rainbow-colorize terminal output
