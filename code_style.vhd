@@ -59,6 +59,10 @@ VHDL code style:
 --*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 
 --==============================================================================
+-- CONSTANTS
+--==============================================================================
+
+--==============================================================================
 -- COMPONENTS
 --==============================================================================
 
@@ -91,9 +95,9 @@ end entity my;
 --! Does this and that.
 hello_world : process(rst_i, clk_i) is
     --! bla-bla
-    my_proc : procedure(a : integer) : integer is
+    procedure my(a : in integer) : integer is
     begin
-    end procedure my_proc;
+    end procedure my;
 
     variable a_v : integer := '0'; --! bla-bla
 begin -- process hello_world
