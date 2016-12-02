@@ -291,7 +291,7 @@
 * Screen tools: grc (general colorizer),
 * Shells: mosh (shell optimized for mobile use)
 * Screens: byobu (win manager wrapper around screen and tmux)
-* Files: , discus (a better df)
+* Files: discus (a better df)
 * HW:
 * Monitoring: top, htop, atop (for long term analysis), vmstat, pmap, iotop, powertop, apachetop, mytop (for mysql), ftptop, free, sar, collectl, mpstat, uptime, monitorix, monit, nagios, nmon, glances, sysstat, icinga, observium, dash, cacti, zenoss, munin, dstat (replacement for vmstat, iostat, netstat, ifstat), conky
 * User activity: psacct, acct, W, ulimit, cpulimit, whowatch
