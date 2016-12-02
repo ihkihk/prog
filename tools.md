@@ -286,3 +286,24 @@
 
 * Markdown
 * RestructuredText - used by Python's documentation
+
+## Linux tools
+* Screen tools: grc (general colorizer),
+* Shells: mosh (shell optimized for mobile use)
+* Screens: byobu (win manager wrapper around screen and tmux)
+* Files: , discus (a better df)
+* HW:
+* Monitoring: top, htop, atop (for long term analysis), vmstat, pmap, iotop, powertop, apachetop, mytop (for mysql), ftptop, free, sar, collectl, mpstat, uptime, monitorix, monit, nagios, nmon, glances, sysstat, icinga, observium, dash, cacti, zenoss, munin, dstat (replacement for vmstat, iostat, netstat, ifstat), conky
+* User activity: psacct, acct, W, ulimit, cpulimit, whowatch
+* Admin: webmin
+* Prog:
+* Logs: multitail, swatch, logwatch, goaccess
+* Networking: ifconfig, traceroute, netstat, ss (better netstat), netcat, nmap, mtr (my tracert), pv (pipe viewer), iptraf, nethogs, iftop, tcpdump, arpwatch, vnstat, sarg (squid monitor), wireshark, smokeping (for net latencies), nload, net-snmp, justniffer, bmon (for net debug), ngrep, ethtool, bandwidthd, ntopng, dnstracer, wireless-tools, wpa-supplicant & wpa-gui
+* Security: suricata, VeraCrypt (former TrueCrypt)
+* Visualization: RRDtool (for handling round-robin databases)
+* Virtualizations: schroot/dchroot, debootstrap
+
+## Windows tools
+* Networking: ping, tracert, netstat, nbtstat, nslookup, ipconfig, arp
+
+
