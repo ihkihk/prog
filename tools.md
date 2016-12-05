@@ -44,6 +44,7 @@
 * [Dokku](https://github.com/dokku/dokku) - A very minimalist PaaS powered by Docker
 * [Heroku](https://www.heroku.com/platform) - Platform-as-a-Service for deplying apps in *dynos*
 * [ownCloud](https://owncloud.org/) - for setting up one's private Cloud
+* [RollApp](https://www.rollapp.com) - instant desktop app "cloudification". Many desktop apps that can be run online (e.g. inkscape)
 
 # Continuous Integration & SW Build/Project management
 * [jenkins](https://jenkins-ci.org/) - former 'hudson'
