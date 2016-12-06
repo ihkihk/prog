@@ -15,6 +15,10 @@
 * http://www.simultrain.com/ - Project Manager Simulator (swiss)!
 * [Redmine](www.redmine.org) - open-source web-based project management
 
+# Secure communications
+* [bitmessage](https://bitmessage.org)
+
+
 # File transfer / Cloud storage
 * [WeTransfer](https://www.wetransfer.com)
 * [Send18](https://www.send18.com)
@@ -306,5 +310,3 @@
 
 ## Windows tools
 * Networking: ping, tracert, netstat, nbtstat, nslookup, ipconfig, arp
-
-

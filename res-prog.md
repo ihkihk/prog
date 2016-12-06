@@ -51,6 +51,8 @@
 * [Project Euler](https://projecteuler.net) - Contains 531 riddles of increasing difficulty
 * [codingbat.com/](http://codingbat.com/) - progr. problems in JAva/PYthon
 * [codestepbystep.com/](http://www.codestepbystep.com/) - Practice solving coding problems online in your browser in C++, Java, Python, and more!
+* [CryptoPals](http://cryptopals.com/) - cryptochallenges
+* [RevEng Challenges](https://challenges.re) - page by Dennis Yurichev
 
 
 # Hackathons, coding
