@@ -1,3 +1,20 @@
+# ABIs
+* [Porting to GCC to AMD64](http://www.ucw.cz/~hubicka/papers/amd64/amd64.html) - includes ABI details
+* [System V AMD64 ABI Spec](http://refspecs.linuxbase.org/elf/x86_64-abi-0.98.pdf)
+* [System V arch-independent ABI](http://www.sco.com/developers/devspecs/gabi41.pdf)
+* [Linux Standard Base Core Specification for AMD64 4.1](http://refspecs.linuxfoundation.org/LSB_4.1.0/LSB-Core-AMD64/LSB-Core-AMD64/book1.html)
+* [Linux Standard Base Core Specification 4.1](http://refspecs.linuxfoundation.org/LSB_4.1.0/LSB-Core-generic/LSB-Core-generic/book1.html)
+
+# Assembler
+* [Flat Assembler](http://flatassembler.net/) - with a lot of doc and examples!
+* [Intel's Intro to 64x assembly](https://software.intel.com/sites/default/files/m/d/4/1/d/8/Introduction_to_x64_Assembly.pdf)
+* [What do linkers do? (Stackoverflow)](http://stackoverflow.com/questions/3322911/what-do-linkers-do/33690144#33690144)
+* [How to make an executable ELF file in Linux using a HEX Editor (stackoverflow)](http://stackoverflow.com/questions/26294034/how-to-make-an-executable-elf-file-in-linux-using-a-hex-editor/30648229#30648229)
+* [What do R_X86_64_32S and R_X86_64_64 relocation mean? (Stackoverflow)](http://stackoverflow.com/questions/6093547/what-do-r-x86-64-32s-and-r-x86-64-64-relocation-mean/33289761#33289761)
+* [ELF Hello World Tutorial](http://www.cirosantilli.com/elf-hello-world/)
+* [The Teensy Files](http://www.muppetlabs.com/~breadbox/software/tiny/) - creating tiny programs
+
+
 # Famous people
 * [Peter Norvig](http://norvig.com/) - Currently Research Director in Google, AI specialist. Page full of papers and code in Lisp, Python of different projects like solving Sudokus and other puzzles.
 * [Christian Queinnec](https://pages.lip6.fr/Christian.Queinnec/PDF/) - Has many papers by this CS scientists
@@ -87,3 +104,9 @@
 * [Overleaf - Online Latexing](https://www.overleaf.com)
 * [Sharelatex - Online Latexing](https://www.sharelatex.com)
 * [Amazon-to-Bibtex](http://lead.to/amazon/en)
+
+# SW Engineering
+* [SW Engineering Checklists](http://www.rspa.com/spi/chklst.html)
+
+# VHDL
+* [VHDL-2008 linked grammar from Sigasi](http://insights.sigasi.com/tech/vhdl2008.ebnf.html)

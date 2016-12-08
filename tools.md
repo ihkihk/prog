@@ -85,6 +85,15 @@
 * [jQuery](https://jquery.com/)
 
 # Programming
+## Assemblers
+* [Flat Assembler](http://flatassembler.net/)
+* NASM
+* YASM - rewritten NASM
+* MASM
+* GAS
+* HLAS
+* WinASM - IDE for assembler programming
+
 ## Beautification
 * indent
 * AStyle
@@ -229,13 +238,14 @@
 * [Markdown Live Preview](http://markdownlivepreview.com/)
 * [MindMup](https://www.mindmup.com) - free online mindmapping with possibility to write to GoogleDrive
 
-# UML Diagramming tools
+# UML/BPMN Diagramming tools
 * [ModelIO](https://www.modelio.org/) - open-source
 * [Visual Paradigm](https://www.visual-paradigm.com/)
 * [Eclipse Based Papyrus](http://www.eclipse.org/papyrus/)
 * [GenMyModel](https://www.genmymodel.com/)
 * [ArgoUML](http://argouml.tigris.org/) - free
 * [Sparx Systems' Enterprise Architect](http://www.sparxsystems.com/)
+* [Bizagi BPMN Modeler](http://www.bizagi.com/en/products/bpm-suite/modeler) - used at ETEL
 
 # Statistics
 * [A/B Sampling Size](http://www.evanmiller.org/ab-testing/sample-size.html)
