@@ -1,9 +1,13 @@
-# ABIs
+# ABIs, BIOS, UEFI, OS
 * [Porting to GCC to AMD64](http://www.ucw.cz/~hubicka/papers/amd64/amd64.html) - includes ABI details
 * [System V AMD64 ABI Spec](http://refspecs.linuxbase.org/elf/x86_64-abi-0.98.pdf)
 * [System V arch-independent ABI](http://www.sco.com/developers/devspecs/gabi41.pdf)
 * [Linux Standard Base Core Specification for AMD64 4.1](http://refspecs.linuxfoundation.org/LSB_4.1.0/LSB-Core-AMD64/LSB-Core-AMD64/book1.html)
 * [Linux Standard Base Core Specification 4.1](http://refspecs.linuxfoundation.org/LSB_4.1.0/LSB-Core-generic/LSB-Core-generic/book1.html)
+* [ELF-64 Object File Format, Version 1.5 Draft 2](http://ftp.openwatcom.org/devel/docs/elf-64-gen.pdf)
+* [MS x64 Software Conventions](https://msdn.microsoft.com/en-us/library/7kcdt6fy.aspx)
+* [x86 calling conventions](https://en.wikipedia.org/wiki/X86_calling_conventions)
+* [OSdev Wiki !!!](http://wiki.osdev.org/Main_Page)
 
 # Assembler
 * [Flat Assembler](http://flatassembler.net/) - with a lot of doc and examples!
