@@ -7,6 +7,7 @@
 * [ELF-64 Object File Format, Version 1.5 Draft 2](http://ftp.openwatcom.org/devel/docs/elf-64-gen.pdf)
 * [MS x64 Software Conventions](https://msdn.microsoft.com/en-us/library/7kcdt6fy.aspx)
 * [x86 calling conventions](https://en.wikipedia.org/wiki/X86_calling_conventions)
+* [Calling conventions for different compilers](http://www.angelcode.com/dev/callconv/callconv.html)
 * [OSdev Wiki !!!](http://wiki.osdev.org/Main_Page)
 
 # Assembler
@@ -17,6 +18,7 @@
 * [What do R_X86_64_32S and R_X86_64_64 relocation mean? (Stackoverflow)](http://stackoverflow.com/questions/6093547/what-do-r-x86-64-32s-and-r-x86-64-64-relocation-mean/33289761#33289761)
 * [ELF Hello World Tutorial](http://www.cirosantilli.com/elf-hello-world/)
 * [The Teensy Files](http://www.muppetlabs.com/~breadbox/software/tiny/) - creating tiny programs
+* [x86 Instruction Reference](http://ref.x86asm.net/index.html)
 
 
 # Famous people

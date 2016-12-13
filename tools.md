@@ -131,6 +131,7 @@
 * LLDB (from the LLVM project)
 * ollydbg
 * WinDbg
+* [Windows x64 Debugger open-source](http://x64dbg.com/)
 
 ## Documentation
 * [Sphinx](www.sphinx-doc.org)
@@ -138,6 +139,9 @@
 
 ## Library interface generator
 * swig
+
+## Reverse engineering
+* [GodBolt - compiler output explorer](http://godbolt.org/)
 
 ## Static code analysis
 * lint
@@ -174,6 +178,7 @@
 
 ## Maths
 [Geocode](http://www.gecode.org/) - Generic Constraint Development Environment, the best lib for constraint  programming
+[Microsoft Research Z3 SMT Solver](https://github.com/Z3Prover/z3/wiki)
 
 
 ## Visualization
