@@ -105,6 +105,10 @@
 * [Font Squirrel - Free Fonts](https://www.fontsquirrel.com/)
 * [38'000 Free Flat Icons for Windows10, Android, iOS](https://icons8.com/)
 
+# hacking
+* [Xaker.ru](https://xakep.ru/) - great blog
+
+
 # Latex
 * [Latex Templates](https://www.latextemplates.com)
 * [Overleaf - Online Latexing](https://www.overleaf.com)
