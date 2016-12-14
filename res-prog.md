@@ -19,6 +19,8 @@
 * [ELF Hello World Tutorial](http://www.cirosantilli.com/elf-hello-world/)
 * [The Teensy Files](http://www.muppetlabs.com/~breadbox/software/tiny/) - creating tiny programs
 * [x86 Instruction Reference](http://ref.x86asm.net/index.html)
+* [ARM GCC Inline Assembler Cookbook](http://www.ethernut.de/en/documents/arm-inline-asm.html)
+* [Bit Permutations!](http://programming.sirrida.de/bit_perm.html)
 
 
 # Famous people
