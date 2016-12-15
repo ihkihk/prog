@@ -107,9 +107,10 @@
 * [Font Squirrel - Free Fonts](https://www.fontsquirrel.com/)
 * [38'000 Free Flat Icons for Windows10, Android, iOS](https://icons8.com/)
 
-# hacking
+# hacking, reverse engineering
 * [Xaker.ru](https://xakep.ru/) - great blog
-
+* [Reddit - RE Math](https://www.reddit.com/r/REMath/)
+* [Reddit - RE](https://www.reddit.com/r/ReverseEngineering/)
 
 # Latex
 * [Latex Templates](https://www.latextemplates.com)

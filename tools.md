@@ -123,6 +123,7 @@
 * [codenvy.com](https://codenvy.com) - Docker-based devenvs, supports also Android
 * [Koding](http://www.koding.com/)
 * [RawGit](http://rawgit.com/) - RawGit serves raw files directly from GitHub with proper Content-Type headers.
+* [PasteBin](http://pastebin.com/)
 
 ## Debuggers
 * ddd
