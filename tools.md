@@ -177,6 +177,8 @@
 
 # Libraries
 
+## DB
+* [QxORM](https://www.qxorm.com/qxorm_en/home.html) - Great Qt library with visual editor to manage your persistent data layer in C++/Qt 
 ## Maths
 [Geocode](http://www.gecode.org/) - Generic Constraint Development Environment, the best lib for constraint  programming
 [Microsoft Research Z3 SMT Solver](https://github.com/Z3Prover/z3/wiki)
