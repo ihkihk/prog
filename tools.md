@@ -178,7 +178,7 @@
 # Libraries
 
 ## DB
-* [QxORM](https://www.qxorm.com/qxorm_en/home.html) - Great Qt library with visual editor to manage your persistent data layer in C++/Qt 
+* [QxORM](https://www.qxorm.com/qxorm_en/home.html) - Great Qt library with visual editor to manage your persistent data layer in C++/Qt
 ## Maths
 [Geocode](http://www.gecode.org/) - Generic Constraint Development Environment, the best lib for constraint  programming
 [Microsoft Research Z3 SMT Solver](https://github.com/Z3Prover/z3/wiki)
@@ -217,6 +217,7 @@
 * [Nagios](http://www.nagios.com) - Network monitoring
 * [nGrok](https://ngrok.com) - Secure introspected tunnels thru firewalls to a localhost-based server
 * [netperf] - famous client/server for testing network performance (can be used for driver dev)
+* [speedtest](speedtest.net) - WLAN connection speed tester
 
 
 
