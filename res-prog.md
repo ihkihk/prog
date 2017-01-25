@@ -78,7 +78,8 @@
 * [codestepbystep.com/](http://www.codestepbystep.com/) - Practice solving coding problems online in your browser in C++, Java, Python, and more!
 * [CryptoPals](http://cryptopals.com/) - cryptochallenges
 * [RevEng Challenges](https://challenges.re) - page by Dennis Yurichev
-
+* [uDebug](http://www.udebug.com) - site for debugging solutions to online-judge problems
+* [University of Valladolid online-judge](https://uva.onlinejudge.org/) - biggest repository of competition problems
 
 # Hackathons, coding
 * [codewars.com](https://codewars.com)
