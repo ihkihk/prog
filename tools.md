@@ -241,6 +241,7 @@
 * [Lead2Amazon](http://lead.to/amazon/en/) - searches for book by ISBN and prepares its bibtex entry
 * [doi2bib](www.doi2bib.org) - searches for media by DOI and prepares its bibtex entry
 * [ShareLatex](https://www.sharelatex.com) --- For Latex documents
+* [Overleaf](https://www.overleaf.com) - For Latex documents
 * [TableGenerator]({www.tablesgenerator.com}) --- Table generator for many formats (incl. Latex)
 * [Latex-to-Image generator](http://www.sciweavers.org/free-online-latex-equation-editor)
 * [Detexify](http://detexify.kirelabs.org/classify.html) - Latex Symbol Recognizer
@@ -284,6 +285,10 @@
 * [CreateLy](creately.com)
 * [TinkerCAD](www.tinkercad.com) - 3D modeling
 * [Umbrello KDE's UML Modeler](https://umbrello.kde.org)
+
+# Speech recognition
+* [wit.ai](wit.ai) - online speech rec service for Android (use github's login)
+
 
 # Wikis
 * Moin-Moin
