@@ -82,7 +82,7 @@
 * [University of Valladolid online-judge](https://uva.onlinejudge.org/) - biggest repository of competition problems
 
 # Hackathons, coding
-* [codewars.com](https://codewars.com)
+* [codewars.com](https://codewars.com) - different katas
 * [Codeforces](http://codeforces.com/)
 * [Topcoder](https://www.topcoder.com/) - has also a lot of tutorials
 * [Facebook Hacker Cup](https://www.facebook.com/hackercup)
