@@ -289,6 +289,10 @@
 # Speech recognition
 * [wit.ai](wit.ai) - online speech rec service for Android (use github's login)
 
+# Web creation
+* [wix](https://wix.com)
+* [MiddleMan](httsp://middlemanapp.com/) - Framework for static websites
+
 
 # Wikis
 * Moin-Moin
