@@ -286,6 +286,9 @@
 * [TinkerCAD](www.tinkercad.com) - 3D modeling
 * [Umbrello KDE's UML Modeler](https://umbrello.kde.org)
 
+# Home automation and IoT
+* [Home Assistant](https://home-assistant.io) - free Python-based home automation
+
 # Speech recognition
 * [wit.ai](wit.ai) - online speech rec service for Android (use github's login)
 
@@ -304,6 +307,13 @@
 * [Oauth](http://oauth.net/)
 * Kerberos
 * RADIUS, DIAMETER
+
+## Home automation
+* [Z-wave](http://www.z-wave.com/)
+
+
+## Multicore programming
+* [The Multicore Association](http://www.multicore-association.org) - MULTICORE COMMUNICATIONS API WORKING GROUP
 
 ## Web facilitation
 * [Gravatar](https://en.gravatar.com/) - globally-recognized avatars
