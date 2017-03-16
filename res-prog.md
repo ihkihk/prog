@@ -102,7 +102,7 @@
 * [FreeCodeCamp](www.freecodecamp.com) - teaching front/back-end progr
 * [The Odin Project](www.theodinproject.com) - teaching Ruby-on-Rails
 * [Codecademy.com/](https://www.codecademy.com/) - Online learning of web/SQL/Python/APIs etc
-* [Hackreactor (paid)](http://www.hackreactor.com/)
+* [Hackreactor (paid)](http://www.hackreactor.com/) - very good one in San Fransisco
 
 # Graphical design
 * [Font Squirrel - Free Fonts](https://www.fontsquirrel.com/)
