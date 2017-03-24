@@ -35,6 +35,11 @@
 * [Catalog of Patterns of EA by Martin Fowler](http://martinfowler.com/eaaCatalog/index.html)
 * [Many free ebooks on many prog languages](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
 
+# Linux
+* [Free Electrons](http://free-electrons.com) - MUST READ!!!! great tutorials on e-Linux, Kernel prog, Yocto, Android, etc
+* [Linux kernel cross-ref](http://lxr.free-electrons.com)
+* [Kernel.org](http://kernel.org)
+
 # Vim
 * [Learn Vim the Hard Way](http://learnvimscriptthehardway.stevelosh.com/) - online book for Vim scripting
 * [Coming Home to Vim](http://stevelosh.com/blog/2010/09/coming-home-to-vim) - Steve Losh blog on configuring Vim
