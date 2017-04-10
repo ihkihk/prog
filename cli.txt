@@ -1,0 +1,82 @@
+
+* Using a REST API
+curl --raw -L -X POST --post301 -H "Accept:application/json"
+-H "Content-Type: application/json" --data-ascii '{"email":
+"singh_vinod@yahoo.com", "password": "password", "username":
+"singhvinod494" }' https://index.docker.io/v1/users
+
+curl --raw -L --user vinoddandy:password https://index.docker.io/v1/users
+
+* Running a docker test environment suitable for TDD of SW located in hitcount folder
+$ sudo docker run -it -v /home/peter/src/hitcount:/src \
+    python:latest /bin/bash
+    
+
+* Adding user to a group
+> sudo gpasswd -a jenkins newgroup
+
+* Checking for rootkits
+> sudo rkhunter --update
+> sudo rkhunter --propupd
+> sudo rkhunter --check
+> sudo chkrootkit
+> sudo tiger # (tripwire based!), global pass:vimcho123, local pass:xepy123
+after this:
+> sudo less /var/log/tiger/security.report.*
+
+
+* HW Monitoring
+$ sudo dmidecode -s bios-vendor
+
+* List VGA devices with their drivers
+$ update-pciids
+$ lspci -k | grep -EA2 "3D|VGA"
+
+* Stop the X server
+$ sudo service lightdm stop
+
+* Get Linux distrib info
+$ cat /etc/*release
+
+* Inject 25% idle time to reduce temperature
+$ grep . /sys/class/thermal/*/type
+  .../sys/class/thermal/cooling_device8/type:intel_powerclamp...
+$ sudo sudo sh -c "echo 25 > /sys/class/thermal/cooling_device8/cur_state"  
+
+* Managing alternatives
+$ sudo update-alternatives --auto x86_64-linux-gnu_gl_conf
+$ sudo update-alternatives --config x86_64-linux-gnu_gl_conf
+$ sudo update-alternatives --install /etc/ld.so.conf.d/x86_64-linux-gnu_GL.conf x86_64-linux-gnu_gl_conf /usr/lib/x86_64-linux-gnu/mesa/ld.so.conf 500
+$ sudo update-alternatives --remove x86_64-linux-gnu_gl_conf /usr/lib/x86_64-linux-gnu/mesa/ld.so.conf
+$ sudo ldconfig -n
+$ sudo update-initramfs -u
+$ cat /var/log/alternatives.log
+
+* Choosing NVIDIA as the primary VGA
+$ sudo prime-select nvidia
+$ sudo prime-select query
+
+* Restart
+$ sudo init 6
+
+* Detect UEFI
+$ [ -d /sys/firmware/efi ] && echo "UEFI" || echo "BIOS"
+$ dmesg | grep "EFI v"
+
+* Creating initrd as a compressed cpio image
+> find . | cpio --quiet -H newc -o | gzip -9 -n > /boot/imagefile.img
+* Examining the contents of an existing image file is just as simple::
+> mkdir /tmp/imagefile
+> cd /tmp/imagefile
+> gzip -cd /boot/imagefile.img | cpio -imd --quiet
+
+* Extracting icons from windows *.exe for wine
+> wrestool -x -t14 --output=. TINE.exe
+> convert TINE_t14_ICON.ico main_icon.png
+OR
+> for i in *.ico; do convert "$i" "$i.png"; done
+- PNG files can be stored here ~/.local/share/icons/hicolor/256x256/apps/
+- .DESKTOP files for WINE apps are here: ~/.local/share/applications/wine/Programs/[Prog Name]
+
+
+
