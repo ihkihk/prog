@@ -70,6 +70,12 @@
 [Data Wrangling with R (dplyr, tidyr)](https://dl.dropboxusercontent.com/u/5896466/wrangling-webinar.pdf)
 [Inside-R](http://www.inside-r.org/) - A Community Site for R � Sponsored by Revolution Analytics
 
+# Secure Coding
+* [CERT SEI](https://www.securecoding.cert.org/confluence/display/seccode/SEI+CERT+Coding+Standards) - SEI CERT Secure Coding Standards (C, C++, Android)
+* [CERT SecureCoding](securecoding.cert.org)
+* [CERT Secure Coding in C/C++ Certificate](http://www.cert.org/go/secure-coding/) - cost $1250, online training + exam
+
+
 # Computer Science
 ## Lambda calculus, Functional programming
 * [The Original 'Lambda Papers' by Guy Steele and Gerald Sussman](http://library.readscheme.org/page1.html)
