@@ -157,6 +157,64 @@ error_log = /var/log/php/error.log
 > sudo chown www-data /var/log/php
 > sudo systemctl restart apache2
 
-* Installing Magento2
+* Installing Magento2 as seen on [link](https://www.linode.com/docs/websites/ecommerce/install-magento-on-ubuntu-16-04)
+> Install LAMP
 > sudo apt-get install php7.0-common php7.0-gd php7.0-mcrypt php7.0-curl php7.0-intl php7.0-xsl php7.0-mbstring php7.0-zip php7.0-iconv mysql-client
+> Make sure apache2 -v > 2.4
+> sudo a2enmod rewrite
+> Set apache virtual host to:
+<Directory /var/www/html/example.com/public_html>
+    Require all granted
+</Directory>
+<VirtualHost *:80>
+    ServerName example.com
+    ServerAlias www.example.com
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/html/example.com/public_html
+
+    ErrorLog /var/www/html/example.com/logs/error.log
+    CustomLog /var/www/html/example.com/logs/access.log combined
+
+    <Directory /var/www/html/example.com/public_html>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+    </Directory>
+
+</VirtualHost>
+* Setup mysql
+CREATE DATABASE magento;
+CREATE USER 'magento' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON magento.* TO 'magento';
+* Configure PHP
+In /etc/php/7.0/apache2/php.ini AND /etc/php/7.0/cli/php.ini:
+memory_limit = 512M (half of the machine memory)
+date.timezone = Europe/Zurich
+* Extract Magento Community Edition into /var/www/html/example.com/public_html
+> sudo useradd magento
+> sudo usermod -g www-data magento
+> sudo find var vendor pub/static pub/media app/etc -type f -exec chmod g+w {} \;
+> sudo find var vendor pub/static pub/media app/etc -type d -exec chmod g+ws {} \;
+> sudo chown -R magento:www-data .
+> sudo chmod u+x bin/magento
+> sudo systemctl restart apache2
+> sudo su magento
+> cd bin
+> ./magento setup:install --admin-firstname="Ivailo" --admin-lastname="Kassamakov" --admin-email="ivokassamakov@gmail.com" --admin-user="admin" --admin-password="admin123" --db-name="magento" --db-host="localhost" --db-user="magentoU" --db-password="magentoP"
+* Set cron jobs for the magento user
+> sudo crontab -u magento -e
+Add these lines:
+* * * * * /usr/bin/php /var/www/html/example.com/public_html/bin/magento cron:run | grep -v "Ran jobs by schedule" >> /var/www/html/example.com/public_html/var/log/magento.cron.log
+* * * * * /usr/bin/php /var/www/html/example.com/public_html/update/cron.php >> /var/www/html/example.com/public_html/var/log/update.cron.log
+* * * * * /usr/bin/php /var/www/html/example.com/public_html/bin/magento setup:cron:run >> /var/www/html/example.com/public_html/var/log/setup.cron.log
+* Deny X-Frames
+In /var/www/html/example.com/public_html/app/etc/env.php:
+'x-frame-options' => 'DENY',
+* At a minimum, you should restrict write access to the app/etc directory before opening the site to customers. Run these commands from within your Magento installation directory:
+> sudo find app/etc -type f -exec chmod g-w {} \;
+> sudo find app/etc -type d -exec chmod g-ws {} \;
+
+
+
+
+
 
