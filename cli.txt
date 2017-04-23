@@ -7,6 +7,14 @@ curl --raw -L -X POST --post301 -H "Accept:application/json"
 
 curl --raw -L --user vinoddandy:password https://index.docker.io/v1/users
 
+* Network usage
+> netstat -tlpn (TCP/listening/prog/numeric)
+
+
+* Print headers
+> curl -I vimcho.com
+> curl -Ivs vimcho.com > /dev/null - prints also request headers and removes duplication by -v
+
 * Running a docker test environment suitable for TDD of SW located in hitcount folder
 $ sudo docker run -it -v /home/peter/src/hitcount:/src \
     python:latest /bin/bash
@@ -186,7 +194,8 @@ CREATE DATABASE magento;
 CREATE USER 'magento' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON magento.* TO 'magento';
 * Configure PHP
-In /etc/php/7.0/apache2/php.ini AND /etc/php/7.0/cli/php.ini:
+In /etc/php/7.0/apache2/php.ini AND /etc/php/7.0/cli/php.ini:openssl req -new -x509 -sha256 -days 365 -nodes -out /etc/ssl/certs/example.com.crt -keyout /etc/ssl/private/example.com.key
+
 memory_limit = 512M (half of the machine memory)
 date.timezone = Europe/Zurich
 * Extract Magento Community Edition into /var/www/html/example.com/public_html
@@ -212,9 +221,37 @@ In /var/www/html/example.com/public_html/app/etc/env.php:
 * At a minimum, you should restrict write access to the app/etc directory before opening the site to customers. Run these commands from within your Magento installation directory:
 > sudo find app/etc -type f -exec chmod g-w {} \;
 > sudo find app/etc -type d -exec chmod g-ws {} \;
+* In the admin panel - Stores - Configuration - General - Web - Base URLs (Secure) set the url to https://.....
+* Set up Varnish
 
 
+## SSL
+* Create self-signed certificate seen [here](https://www.linode.com/docs/security/ssl/create-a-self-signed-certificate-on-debian-and-ubuntu)
+> openssl req -new -x509 -sha256 -days 365 -nodes -out /etc/ssl/certs/example.com.crt -keyout /etc/ssl/private/example.com.key
+> chmod 400 /etc/ssl/certs/example.com.crt
+> chmod 400 /etc/ssl/private/example.com.key
 
+
+## Varnish
+* Configuring apache
+> Make apache listen on 8080 in /etc/apache2/apache2.conf and in all VirtualHost definitions
+* Setting up varnish on systemd system
+> Systemd reads the config from /etc/systemd/system/multi-user.target.wants/varnish.service and not from /etc/default/varnish !
+* Analyzing Varnish activity
+> varnishlog
+> varnishtop -i txurl
+> varnishstat
+* Optimizing cookies handling for increasing hit rate
+** Removing all client-set Cookies except if the request url is /admin/
+> put in the vcl_rcv in /etc/varnish/default.vcl
+if ( !( req.url ~ ^/admin/) ) {
+  unset req.http.Cookie;
+}
+> to remove client-sent cookies starting with underscore or has_js (Google Analytics)
+// Remove has_js and Google Analytics __* cookies.
+set req.http.Cookie = regsuball(req.http.Cookie, "(^|;\s*)(_[_a-z]+|has_js)=[^;]*", "");
+// Remove a ";" prefix, if present.
+set req.http.Cookie = regsub(req.http.Cookie, "^;\s*", "");
 
 
 
