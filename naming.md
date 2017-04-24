@@ -84,6 +84,7 @@
 * exc - exception
 * exec - execution
 * ext - external
+* fct - forecast
 * finp - input file
 * fl - flag
 * filt - filter
@@ -169,7 +170,7 @@
 * qword - quad word (64-bit)
 * rad - radius
 * radb - radiobox
-* rcv - receive(r)
+* recv - receive(r)
 * rd - read
 * rden - read enable
 * rdy - ready
@@ -212,8 +213,7 @@
 * tmp - temporary
 * tmr - timer
 * tsk - task
-* trx - transceiver
-* tx - transmission, transmitter
+* txrx - transceiver
 * txt - text
 * txtb - textbox
 * und - undefined
@@ -228,6 +228,7 @@
 * word - word (16-bit)
 * wr - write
 * wren - write enable
+* xmit - transmission, transmitter
 * xmp - example
 * year - year
 
