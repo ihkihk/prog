@@ -298,10 +298,13 @@
 * [MiddleMan](httsp://middlemanapp.com/) - Framework for static websites
 * [CloudFlare](https://cloudflare.com) - security & CDN
 * [ownCloud](https://owncloud.org) - PHP SW for creating a personal web-based cloud
-* [StartSSL](https://www.startcomca.com/) - they have free signed SSL certificates
+* [StartSSL](https://www.startcomca.com/) - they have free signed SSL certificates - As of 2016 distrusted. DON'T USE !!!!!
 * [Mozilla SSL Config Generator](https://mozilla.github.io/server-side-tls/ssl-config-generator/)
 * [SSL Server Test](https://www.ssllabs.com/ssltest/)
 * [Google PageSpeed/PageSight Analysis tools](https://developers.google.com/speed/pagespeed/)
+* [Let's Encrypt](https://letsencrypt.org) - free CA based on ACME (Automatic Certificate Management Environment) protocol !!!!!!
+* [ACME Cert Bot](https://certbot.eff.org) - for use with Let's Encrypt
+* [Certificate Transparency Search Engine](https://crt.sh/)
 
 
 # Wikis
