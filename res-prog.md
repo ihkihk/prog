@@ -70,10 +70,11 @@
 [Data Wrangling with R (dplyr, tidyr)](https://dl.dropboxusercontent.com/u/5896466/wrangling-webinar.pdf)
 [Inside-R](http://www.inside-r.org/) - A Community Site for R � Sponsored by Revolution Analytics
 
-# Secure Coding
+# Secure Coding, Security
 * [CERT SEI](https://www.securecoding.cert.org/confluence/display/seccode/SEI+CERT+Coding+Standards) - SEI CERT Secure Coding Standards (C, C++, Android)
 * [CERT SecureCoding](securecoding.cert.org)
 * [CERT Secure Coding in C/C++ Certificate](http://www.cert.org/go/secure-coding/) - cost $1250, online training + exam
+* [SSL/TLS best practices from Qualys SSL Labs](https://www.ssllabs.com/projects/documentation/) 
 
 
 # Computer Science

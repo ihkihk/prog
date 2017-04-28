@@ -296,6 +296,10 @@
 * [wix](https://wix.com)
 * [MiddleMan](httsp://middlemanapp.com/) - Framework for static websites
 * [CloudFlare](https://cloudflare.com) - security & CDN
+* [Mozilla SSL Config Generator](https://mozilla.github.io/server-side-tls/ssl-config-generator/)
+* [Qualys SSL Labs](https://www.ssllabs.com/ssltest/) - ssl site checker
+* [Google Webmaster's Site](https://www.google.com/webmasters)
+
 
 # Wikis
 * Moin-Moin

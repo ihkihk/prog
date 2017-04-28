@@ -194,8 +194,7 @@ CREATE DATABASE magento;
 CREATE USER 'magento' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON magento.* TO 'magento';
 * Configure PHP
-In /etc/php/7.0/apache2/php.ini AND /etc/php/7.0/cli/php.ini:openssl req -new -x509 -sha256 -days 365 -nodes -out /etc/ssl/certs/example.com.crt -keyout /etc/ssl/private/example.com.key
-
+In /etc/php/7.0/apache2/php.ini AND /etc/php/7.0/cli/php.ini:
 memory_limit = 512M (half of the machine memory)
 date.timezone = Europe/Zurich
 * Extract Magento Community Edition into /var/www/html/example.com/public_html
@@ -208,7 +207,7 @@ date.timezone = Europe/Zurich
 > sudo systemctl restart apache2
 > sudo su magento
 > cd bin
-> ./magento setup:install --admin-firstname="Ivailo" --admin-lastname="Kassamakov" --admin-email="ivokassamakov@gmail.com" --admin-user="admin" --admin-password="admin123" --db-name="magento" --db-host="localhost" --db-user="magentoU" --db-password="magentoP"
+> ./magento setup:install --admin-firstname="Ivailo" --admin-lastname="Kassamakov" --admin-email="ivokassamakov@gmail.com" --admin-user="admin" --admin-password="admin123" --db-name="magento" --db-host="localhost" --db-user="magentoU" --db-password="magentoP" --base-url=https://eshop.vimcho.com
 * Set cron jobs for the magento user
 > sudo crontab -u magento -e
 Add these lines:
@@ -230,7 +229,7 @@ In /var/www/html/example.com/public_html/app/etc/env.php:
 > openssl req -new -x509 -sha256 -days 365 -nodes -out /etc/ssl/certs/example.com.crt -keyout /etc/ssl/private/example.com.key
 > chmod 400 /etc/ssl/certs/example.com.crt
 > chmod 400 /etc/ssl/private/example.com.key
-
+> cat my.key my.crt > my.pem
 
 ## Varnish
 * Configuring apache
@@ -252,6 +251,15 @@ if ( !( req.url ~ ^/admin/) ) {
 set req.http.Cookie = regsuball(req.http.Cookie, "(^|;\s*)(_[_a-z]+|has_js)=[^;]*", "");
 // Remove a ";" prefix, if present.
 set req.http.Cookie = regsub(req.http.Cookie, "^;\s*", "");
+* Purging the cache
+> curl -X PURGE http://www.dimitri.eu/php-fpm-apache-split-config-per-site/    (The config file must be setup to allow this)
+> varnishadm -T 127.0.0.1:6082 -S /etc/varnish/secret 
+  varnish> ban req.url ~ * && req.http.host ~ www.dimitri.eu
 
-
+## Installing the Open-Source font
+$ wget http://www.fontsquirrel.com/fonts/download/open-sans
+$ sudo unzip open-sans -d /usr/local/share/fonts/truetype/
+$ rm open-sans
+$ fc-cache
+$ fc-match "Open Sans"  - should output OpenSans-Regular.ttf: "Open Sans" "Regular"
 
