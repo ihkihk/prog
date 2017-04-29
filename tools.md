@@ -24,6 +24,7 @@
 * [Send18](https://www.send18.com)
 * [DropBox](https://www.DropBox.com)
 * [Box](https://www.box.com)
+* [BittorentSync, now Resilio](https://www.resilio.com/individuals)
 
 # GUI mockup, prototyping
 
@@ -292,13 +293,19 @@
 # Speech recognition
 * [wit.ai](wit.ai) - online speech rec service for Android (use github's login)
 
-# Web
+# Web, SSL, TSL
 * [wix](https://wix.com)
 * [MiddleMan](httsp://middlemanapp.com/) - Framework for static websites
 * [CloudFlare](https://cloudflare.com) - security & CDN
-* [Mozilla SSL Config Generator](https://mozilla.github.io/server-side-tls/ssl-config-generator/)
-* [Qualys SSL Labs](https://www.ssllabs.com/ssltest/) - ssl site checker
 * [Google Webmaster's Site](https://www.google.com/webmasters)
+* [ownCloud](https://owncloud.org) - PHP SW for creating a personal web-based cloud
+* [StartSSL](https://www.startcomca.com/) - they have free signed SSL certificates - As of 2016 distrusted. DON'T USE !!!!!
+* [Mozilla SSL Config Generator](https://mozilla.github.io/server-side-tls/ssl-config-generator/)
+* [Qualys SSL Labs Server Test](https://www.ssllabs.com/ssltest/)
+* [Google PageSpeed/PageSight Analysis tools](https://developers.google.com/speed/pagespeed/)
+* [Let's Encrypt](https://letsencrypt.org) - free CA based on ACME (Automatic Certificate Management Environment) protocol !!!!!!
+* [ACME Cert Bot](https://certbot.eff.org) - for use with Let's Encrypt
+* [Certificate Transparency Search Engine](https://crt.sh/)
 
 
 # Wikis

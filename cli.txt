@@ -7,6 +7,8 @@ curl --raw -L -X POST --post301 -H "Accept:application/json"
 
 curl --raw -L --user vinoddandy:password https://index.docker.io/v1/users
 
+curl -X POST -H "Content-Type: application/json" -d '{"username": "cloudron", "password":"cloudron"}' https://my-demo.cloudron.me/api/v1/developer/login
+
 * Network usage
 > netstat -tlpn (TCP/listening/prog/numeric)
 
@@ -30,7 +32,12 @@ $ sudo docker run -it -v /home/peter/src/hitcount:/src \
 > sudo chkrootkit
 > sudo tiger # (tripwire based!), global pass:vimcho123, local pass:xepy123
 after this:
-> sudo less /var/log/tiger/security.report.*
+> sudo less /var/log/tiger/security.report.*$
+
+
+* Checking if reboot is required
+> /var/run/reboot-required and /var/run/reboot-required.pkgs (the last one shows which packages have required the reboot)
+
 
 
 * HW Monitoring
