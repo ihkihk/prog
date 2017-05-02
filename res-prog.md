@@ -39,6 +39,7 @@
 * [Free Electrons](http://free-electrons.com) - MUST READ!!!! great tutorials on e-Linux, Kernel prog, Yocto, Android, etc
 * [Linux kernel cross-ref](http://lxr.free-electrons.com)
 * [Kernel.org](http://kernel.org)
+* [Guide to IP Layer Network Administration with Linux](http://linux-ip.net/html/) - by Martin Brown
 
 # Vim
 * [Learn Vim the Hard Way](http://learnvimscriptthehardway.stevelosh.com/) - online book for Vim scripting
