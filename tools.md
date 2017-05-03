@@ -212,6 +212,9 @@
 * xUnit - much improved JUnit by the creators of NUnit
 * QTestLib - for Qt projects, supports also GUI testing
 
+## Utilities
+* [Augeas](http://augeas.net) - lib for parsing different ini files (works with "lens" backends)
+
 # Network
 
 * [snort](https://www.snort.org) - IDS and IPS (intrusion-detection and intrusion-prevention system)
@@ -219,7 +222,7 @@
 * [nGrok](https://ngrok.com) - Secure introspected tunnels thru firewalls to a localhost-based server
 * [netperf] - famous client/server for testing network performance (can be used for driver dev)
 * [speedtest](speedtest.net) - WLAN connection speed tester
-
+* [HTTPie](https://httpie.org) - command line HTTP client (a bit like curl)
 
 
 # Programmer's toolbox
@@ -286,6 +289,9 @@
 * [CreateLy](creately.com)
 * [TinkerCAD](www.tinkercad.com) - 3D modeling
 * [Umbrello KDE's UML Modeler](https://umbrello.kde.org)
+* [Textik ASCII drawing](https://textik.com)
+* [ASCII Flow](http://asciiflow.com/)
+
 
 # Home automation and IoT
 * [Home Assistant](https://home-assistant.io) - free Python-based home automation
@@ -297,10 +303,11 @@
 * [wix](https://wix.com)
 * [MiddleMan](httsp://middlemanapp.com/) - Framework for static websites
 * [CloudFlare](https://cloudflare.com) - security & CDN
+* [Google Webmaster's Site](https://www.google.com/webmasters)
 * [ownCloud](https://owncloud.org) - PHP SW for creating a personal web-based cloud
 * [StartSSL](https://www.startcomca.com/) - they have free signed SSL certificates - As of 2016 distrusted. DON'T USE !!!!!
 * [Mozilla SSL Config Generator](https://mozilla.github.io/server-side-tls/ssl-config-generator/)
-* [SSL Server Test](https://www.ssllabs.com/ssltest/)
+* [Qualys SSL Labs Server Test](https://www.ssllabs.com/ssltest/)
 * [Google PageSpeed/PageSight Analysis tools](https://developers.google.com/speed/pagespeed/)
 * [Let's Encrypt](https://letsencrypt.org) - free CA based on ACME (Automatic Certificate Management Environment) protocol !!!!!!
 * [ACME Cert Bot](https://certbot.eff.org) - for use with Let's Encrypt

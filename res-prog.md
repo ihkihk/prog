@@ -39,6 +39,7 @@
 * [Free Electrons](http://free-electrons.com) - MUST READ!!!! great tutorials on e-Linux, Kernel prog, Yocto, Android, etc
 * [Linux kernel cross-ref](http://lxr.free-electrons.com)
 * [Kernel.org](http://kernel.org)
+* [Guide to IP Layer Network Administration with Linux](http://linux-ip.net/html/) - by Martin Brown
 
 # Vim
 * [Learn Vim the Hard Way](http://learnvimscriptthehardway.stevelosh.com/) - online book for Vim scripting
@@ -70,10 +71,12 @@
 [Data Wrangling with R (dplyr, tidyr)](https://dl.dropboxusercontent.com/u/5896466/wrangling-webinar.pdf)
 [Inside-R](http://www.inside-r.org/) - A Community Site for R � Sponsored by Revolution Analytics
 
+
 # Secure Coding / Safety
 * [CERT SEI](https://www.securecoding.cert.org/confluence/display/seccode/SEI+CERT+Coding+Standards) - SEI CERT Secure Coding Standards (C, C++, Android)
 * [CERT SecureCoding](securecoding.cert.org)
 * [CERT Secure Coding in C/C++ Certificate](http://www.cert.org/go/secure-coding/) - cost $1250, online training + exam
+* [SSL/TLS best practices from Qualys SSL Labs](https://www.ssllabs.com/projects/documentation/) 
 * [MITRE CWE](http://cwe.mitre.org) - Common Weakness Enumeration database
 * [MITRE CVE](http://cve.mitre.org/) - Common Vulnerabilities and Exposures database
 * [CVE Details](https://www.cvedetails.com/)
