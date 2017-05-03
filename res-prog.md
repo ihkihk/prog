@@ -70,10 +70,15 @@
 [Data Wrangling with R (dplyr, tidyr)](https://dl.dropboxusercontent.com/u/5896466/wrangling-webinar.pdf)
 [Inside-R](http://www.inside-r.org/) - A Community Site for R � Sponsored by Revolution Analytics
 
-# Secure Coding
+# Secure Coding / Safety
 * [CERT SEI](https://www.securecoding.cert.org/confluence/display/seccode/SEI+CERT+Coding+Standards) - SEI CERT Secure Coding Standards (C, C++, Android)
 * [CERT SecureCoding](securecoding.cert.org)
 * [CERT Secure Coding in C/C++ Certificate](http://www.cert.org/go/secure-coding/) - cost $1250, online training + exam
+* [MITRE CWE](http://cwe.mitre.org) - Common Weakness Enumeration database
+* [MITRE CVE](http://cve.mitre.org/) - Common Vulnerabilities and Exposures database
+* [CVE Details](https://www.cvedetails.com/)
+* [NIST NVD](https://nvd.nist.gov/home) - National Vulnerability Dataase
+* [MITRE OVAL](oval.mitre.org) - Open Vulnerability and Assessment Language
 
 
 # Computer Science
@@ -91,6 +96,7 @@
 * [RevEng Challenges](https://challenges.re) - page by Dennis Yurichev
 * [uDebug](http://www.udebug.com) - site for debugging solutions to online-judge problems
 * [University of Valladolid online-judge](https://uva.onlinejudge.org/) - biggest repository of competition problems
+
 
 # Hackathons, coding
 * [codewars.com](https://codewars.com) - different katas
