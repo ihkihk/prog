@@ -204,6 +204,8 @@
 
 ## Network
 * [twisted](https://twistedmatrix.com/trac/) - Python event-driven networking engine
+* [NSS Mozilla's Network Security Services](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS) - for manipulating sertificates, SSL, etc.
+
 
 ## Testing
 * unitcpp

@@ -12,8 +12,12 @@ curl -X POST -H "Content-Type: application/json" -d '{"username": "cloudron", "p
 * Network usage
 > netstat -tlpn (TCP/listening/prog/numeric)
 
+* Find out where a given block device is mounted and remount it to read/write
+> blkid
+> mount -l | grep /dev/sdb1
+> sudo mount -o remount, rw /mount/cdrom
 
-* Print headers
+* Print HTTP headers
 > curl -I vimcho.com
 > curl -Ivs vimcho.com > /dev/null - prints also request headers and removes duplication by -v
 
@@ -269,4 +273,10 @@ $ sudo unzip open-sans -d /usr/local/share/fonts/truetype/
 $ rm open-sans
 $ fc-cache
 $ fc-match "Open Sans"  - should output OpenSans-Regular.ttf: "Open Sans" "Regular"
+
+
+## Installing NextCloud
+$ sudo chown -R www-data:www-data /var/www/nextcloud/
+$ cd /var/www/nextcloud/
+$ sudo -u www-data php occ  maintenance:install --database "mysql" --database-name "nextcloud"  --database-user "root" --database-pass ".root" --admin-user "admin" --admin-pass "vimcho123"
 
