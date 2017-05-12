@@ -60,7 +60,11 @@
 [MongoDB Thinking in Documents Webinar](https://www.mongodb.com/presentations/webinar-back-to-basics-thinking-in-documents?p=55f080b16d6f6e7e15030000&utm_campaign=T6_V2_DEV_AM_E5_Schema%20Design%20-%20A&utm_medium=email&utm_source=Eloqua)
 
 # Python
-[Python Programming Tutorials](https://pythonprogramming.net/) - great Python tutorials on trading, finance, ML, CV, robotics, web dev with Flask/Django, GUIs (PyQt, Kivy)
+* [Python Programming Tutorials](https://pythonprogramming.net/) - great Python tutorials on trading, finance, ML, CV, robotics, web dev with Flask/Django, GUIs (PyQt, Kivy)
+* [The Best of the Best Practices (BOBP) Guide for Python](https://gist.github.com/sloria/7001839)
+* [Python Testing](http://pythontesting.net/start-here/)
+* [SQL Alchemy DB Toolkit for Python](https://www.sqlalchemy.org)
+
 
 # R
 [R-Tutor](http://www.r-tutor.com/) - contains a basic syntax and statistics training with R
