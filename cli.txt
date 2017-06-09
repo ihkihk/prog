@@ -322,3 +322,55 @@ $ git tag "vX.X.X"
 $ npm run publish-build && git push --tags && npm publish
 ------------------FINISH----------------------
 
+* Proxies
+** Check proxy in windows
+> netsh winhttp show/set/reset proxy
+** Check proxy in chrome
+chrome://net-internals/#proxy
+** In Mozilla
+about:preferences#advanced
+** In Windows
+Start > Control Panel > Network and Internet > Internet Options > Connections tab > LAN Settings
+HKEY_CURRENT_USER > Software > Microsoft > Windows > CurrentVersion > Internet Settings
+Get-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings' | findstr ProxyServer
+
+* Changing Cygwin ACLs
+> Hello,
+> 
+> there is a possibility to get bettter permission settings on files created
+> by a windows program inside a directory created by cygwin.
+> you must create special ACE's on this directory like in the following
+> example with german names used in one of my scripts:
+> 
+> icacls "$dir" /remove ERSTELLER-BESITZER
+> icacls "$dir" /grant 'ERSTELLER-BESITZER:(OI)(IO)(R,W,D,WDAC,WO)'
+> icacls "$dir" /grant 'ERSTELLER-BESITZER:(CI)(IO)(F)'
+
+That's "CREATOR OWNER" in english systems.
+
+> icacls "$dir" /remove ERSTELLERGRUPPE
+> icacls "$dir" /grant 'ERSTELLERGRUPPE:(OI)(IO)(R,W)'
+> icacls "$dir" /grant 'ERSTELLERGRUPPE:(CI)(IO)(RX,W,DC)'
+> icacls "$dir" /remove Jeder
+> icacls "$dir" /grant 'Jeder:(RX)'
+> icacls "$dir" /grant 'Jeder:(OI)(IO)(R)'
+> icacls "$dir" /grant 'Jeder:(CI)(IO)(RX)'
+
+"CREATOR GROUP"
+
+> It creates different Default ACE's for files an directories and these will
+> be inherited correctly when using non-cygwin-windows programs. For
+> dirctories the execute permission is inherited b ut for files it is not
+> inherited.
+> [...]
+> To have those DEFAULT ACE's of general use for integration of cygwin and
+> windows without always executing a script after creating a new directory in
+> cygwin it would be necessary to inherit those none-simple DEFAULT ACE's in
+> cygwin directory creation also, not onle the simple ones.
+> A drawback for this may be the fact the gefacl/setfacl utilities does not
+> understand those ACE's and thus  don't show / don't set  it.
+
+It complicates handling of default permissions in the acl system
+calls a lot.  You'd have to handle two CREATOR OWNER ACEs as a single
+"default:user" entry.  Same for "CREATOR GROUP".  I'm not saying this is
+impossible to implement, just that it's a good amount of work.
