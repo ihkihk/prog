@@ -1,26 +1,4 @@
 
-* Using a REST API
-curl --raw -L -X POST --post301 -H "Accept:application/json"
--H "Content-Type: application/json" --data-ascii '{"email":
-"singh_vinod@yahoo.com", "password": "password", "username":
-"singhvinod494" }' https://index.docker.io/v1/users
-
-curl --raw -L --user vinoddandy:password https://index.docker.io/v1/users
-
-curl -X POST -H "Content-Type: application/json" -d '{"username": "cloudron", "password":"cloudron"}' https://my-demo.cloudron.me/api/v1/developer/login
-
-* Network usage
-> netstat -tlpn (TCP/listening/prog/numeric)
-
-* Find out where a given block device is mounted and remount it to read/write
-> blkid
-> mount -l | grep /dev/sdb1
-> sudo mount -o remount, rw /mount/cdrom
-
-* Print HTTP headers
-> curl -I vimcho.com
-> curl -Ivs vimcho.com > /dev/null - prints also request headers and removes duplication by -v
-
 * Running a docker test environment suitable for TDD of SW located in hitcount folder
 $ sudo docker run -it -v /home/peter/src/hitcount:/src \
     python:latest /bin/bash
@@ -29,27 +7,10 @@ $ sudo docker run -it -v /home/peter/src/hitcount:/src \
 * Adding user to a group
 > sudo gpasswd -a jenkins newgroup
 
-* Checking for rootkits
-> sudo rkhunter --update
-> sudo rkhunter --propupd
-> sudo rkhunter --check
-> sudo chkrootkit
-> sudo tiger # (tripwire based!), global pass:vimcho123, local pass:xepy123
-after this:
-> sudo less /var/log/tiger/security.report.*$
-
-
 * Checking if reboot is required
 > /var/run/reboot-required and /var/run/reboot-required.pkgs (the last one shows which packages have required the reboot)
 
 
-
-* HW Monitoring
-$ sudo dmidecode -s bios-vendor
-
-* List VGA devices with their drivers
-$ update-pciids
-$ lspci -k | grep -EA2 "3D|VGA"
 
 * Stop the X server
 $ sudo service lightdm stop
@@ -78,9 +39,7 @@ $ sudo prime-select query
 * Restart
 $ sudo init 6
 
-* Detect UEFI
-$ [ -d /sys/firmware/efi ] && echo "UEFI" || echo "BIOS"
-$ dmesg | grep "EFI v"
+
 
 * Creating initrd as a compressed cpio image
 > find . | cpio --quiet -H newc -o | gzip -9 -n > /boot/imagefile.img
@@ -105,14 +64,7 @@ OR
 > sudo service networking restart|start|stop
 > sudo /etc/init.d/networking restart|start|stop
 
-* Dumping the ACPI tables
-> sudo acpidump > acpidata.dat
-> acpixtract -sSSDT acpidata.dat
-> acpixtract -sDSDT acpidata.dat
-> acpixtract -sFACP acpidata.dat
-> iasl -d dsdt.dat ssdt*.dat facp.dat
-OR a bit easier with the dev. version of the FW test suite
-> sudo fwts acpidump -
+
 
 * Setting up mysql
 > mysql -uroot -p
@@ -275,10 +227,7 @@ $ fc-cache
 $ fc-match "Open Sans"  - should output OpenSans-Regular.ttf: "Open Sans" "Regular"
 
 
-## Installing NextCloud
-$ sudo chown -R www-data:www-data /var/www/nextcloud/
-$ cd /var/www/nextcloud/
-$ sudo -u www-data php occ  maintenance:install --database "mysql" --database-name "nextcloud"  --database-user "root" --database-pass ".root" --admin-user "admin" --admin-pass "vimcho123"
+
 
 ## Release process using git
 ---------------------START------------------
@@ -374,3 +323,31 @@ It complicates handling of default permissions in the acl system
 calls a lot.  You'd have to handle two CREATOR OWNER ACEs as a single
 "default:user" entry.  Same for "CREATOR GROUP".  I'm not saying this is
 impossible to implement, just that it's a good amount of work.
+
+===== Moved to wiki========
+* Using a REST API
+curl --raw -L -X POST --post301 -H "Accept:application/json"
+-H "Content-Type: application/json" --data-ascii '{"email":
+"singh_vinod@yahoo.com", "password": "password", "username":
+"singhvinod494" }' https://index.docker.io/v1/users
+
+curl --raw -L --user vinoddandy:password https://index.docker.io/v1/users
+
+curl -X POST -H "Content-Type: application/json" -d '{"username": "cloudron", "password":"cloudron"}' https://my-demo.cloudron.me/api/v1/developer/login
+
+* Network usage
+> netstat -tlpn (TCP/listening/prog/numeric)
+
+* Find out where a given block device is mounted and remount it to read/write
+> blkid
+> mount -l | grep /dev/sdb1
+> sudo mount -o remount, rw /mount/cdrom
+
+* Print HTTP headers
+> curl -I vimcho.com
+> curl -Ivs vimcho.com > /dev/null - prints also request headers and removes duplication by -v
+
+## Installing NextCloud
+$ sudo chown -R www-data:www-data /var/www/nextcloud/
+$ cd /var/www/nextcloud/
+$ sudo -u www-data php occ  maintenance:install --database "mysql" --database-name "nextcloud"  --database-user "root" --database-pass ".root" --admin-user "admin" --admin-pass "vimcho123"
