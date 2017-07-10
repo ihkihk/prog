@@ -324,6 +324,14 @@ calls a lot.  You'd have to handle two CREATOR OWNER ACEs as a single
 "default:user" entry.  Same for "CREATOR GROUP".  I'm not saying this is
 impossible to implement, just that it's a good amount of work.
 
+* Fixing issues with MTP devices on Linux
+If there is an "Unable to mount MTP..." do this:
+> Check with mtp-detect & mtp-connect
+> Edit /etc/fuse.conf and uncomment "user_allow_other" line
+> The configuration for the device must be found in /lib/udev/rules.d/69-mtp.rules
+(e.g. like this: # SONY Xperia Z2 MTP
+ATTR{idVendor}=="0fce", ATTR{idProduct}=="01b1", SYMLINK+="libmtp-%k", MODE="660", GROUP="audio", ENV{ID_MTP_DEVICE}="1", ENV{ID_MEDIA_PLAYER}="1")
+
 ===== Moved to wiki========
 * Using a REST API
 curl --raw -L -X POST --post301 -H "Accept:application/json"
@@ -351,3 +359,5 @@ curl -X POST -H "Content-Type: application/json" -d '{"username": "cloudron", "p
 $ sudo chown -R www-data:www-data /var/www/nextcloud/
 $ cd /var/www/nextcloud/
 $ sudo -u www-data php occ  maintenance:install --database "mysql" --database-name "nextcloud"  --database-user "root" --database-pass ".root" --admin-user "admin" --admin-pass "vimcho123"
+=======
+
