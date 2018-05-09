@@ -68,11 +68,7 @@
 * 
 *******************************************************************************/
 
-
-
-/******************************************************************************/
 /********************************* INCLUDES ***********************************/
-/******************************************************************************/
 
 /* Current file's header */
 
@@ -83,20 +79,10 @@
 /* System-wide headers */
 
 
-
-/******************************************************************************/
-/********************************* PUBLIC API *********************************/
-/******************************************************************************/
-
-/**************************** Variable Definitions ****************************/
+/****************** PUBLIC API (Global!) Variable Definitions *****************/
 
 // Note: public constants, macros, types and function protos are in the header
 
-
-
-/******************************************************************************/
-/******************************* IMPLEMENTATION *******************************/
-/******************************************************************************/
 
 /**************************** Constants and Macros ****************************/
 
@@ -126,38 +112,35 @@ static int aVar;
 
 /***************************** Function Prototypes ****************************/
 
-/*
- * Interrupt setup and Callbacks for examples
- */
 static int func();
 
 
 /*********************** PUBLIC API Function Definitions **********************/
 
 
-/**************************** Function Definitions ****************************/
+/************************* Static Function Definitions ************************/
 
 
 /******************************************************************************/
 /**
-*
-* This function demonstrates the usage of the EmacPs driver by sending by
-* sending and receiving frames in interrupt driven DMA mode.
-*
-*
-* @param	IntcInstancePtr is a pointer to the instance of the Intc driver.
-* @param	EmacPsInstancePtr is a pointer to the instance of the EmacPs
-*		driver.
-* @param	EmacPsDeviceId is Device ID of the EmacPs Device , typically
-*		XPAR_<EMACPS_instance>_DEVICE_ID value from xparameters.h.
-* @param	EmacPsIntrId is the Interrupt ID and is typically
-*		XPAR_<EMACPS_instance>_INTR value from xparameters.h.
-*
-* @return	XST_SUCCESS to indicate success, otherwise XST_FAILURE.
-*
-* @note		None.
-*
-*******************************************************************************/
+ *
+ * This function demonstrates the usage of the EmacPs driver by sending by
+ * sending and receiving frames in interrupt driven DMA mode.
+ *
+ *
+ * @param	IntcInstancePtr is a pointer to the instance of the Intc driver.
+ * @param	EmacPsInstancePtr is a pointer to the instance of the EmacPs
+ *		driver.
+ * @param	EmacPsDeviceId is Device ID of the EmacPs Device , typically
+ *		XPAR_<EMACPS_instance>_DEVICE_ID value from xparameters.h.
+ * @param	EmacPsIntrId is the Interrupt ID and is typically
+ *		XPAR_<EMACPS_instance>_INTR value from xparameters.h.
+ *
+ * @return	XST_SUCCESS to indicate success, otherwise XST_FAILURE.
+ *
+ * @note		None.
+ *
+ *******************************************************************************/
 static int func()
 {
 
